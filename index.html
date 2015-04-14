@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='utf-8'>
+  <title>Editor cartas Encrucijada</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" type="text/css" href="style/main.css">
+</head>
+<body>
+  <section>
+    <header>
+      <nav class="barra">
+        <article>
+          <a class="editar" id="bedit" data-arriba="si">
+            <input class="edit" id="boton" type="button" value="Editar"/>
+          </a>
+        </article>
+        <article id="nav">
+        </article>
+      </nav>
+    </header>
+  </section>
+  <section id="hide" class="paracv" >
+  </section>
+  <section>
+    <canvas id="canvas" width="744" height="1039"></canvas>
+  </section>
+  <section id="campos" class="losinput">
+    <article>
+      <input class="titulo" type="text" placeholder="Título de la carta" id="titulo"/>
+    </article>
+    <article>
+      <input class="condicion" type="text" placeholder="Condición de la carta" id="condicion"/>
+    </article>
+    <article>
+      <input class="narracion" type="text" placeholder="Narración de la carta" id="narracion" />
+    </article>
+    <article>
+      <select class="opcion1" name="option_1" id="option1">
+        <option value="0">Nada</option>
+        <option value="1">Opción 1</option>
+        <option value="2">Única opción</option>
+        <option value="3">Pulgares arriba</option>
+        <option value="4">Pulgares abajo</option>
+        <option value="5">Alternativa</option>
+      </select>
+    </article>
+    <article>
+      <input class="narop1" type="text" placeholder="Narración de la opción" id="primera_opcion" />
+    </article>
+    <article>
+      <select class="opcion2" name="option_2" id="option2">
+        <option value="0">Nada</option>
+        <option value="1">Opción 2</option>
+        <option value="2">Única opción</option>
+        <option value="3">Pulgares arriba</option>
+        <option value="4">Pulgares abajo</option>
+        <option value="5">Alternativa</option>
+      </select>
+    </article>
+    <article>
+      <input class="narop2" type="text" placeholder="Narración de la opción" id="segunda_opcion" />
+    </article>
+    <article>
+      <select class="opcion3" name="option_3" id="option3">
+        <option value="0">Nada</option>
+        <option value="1">Opción 3</option>
+        <option value="2">Única opción</option>
+        <option value="3">Pulgares arriba</option>
+        <option value="4">Pulgares abajo</option>
+        <option value="5">Alternativa</option>
+      </select>
+    </article>
+    <article>
+      <input class="narop3" type="text" placeholder="Narración de la opción" id="tercera_opcion" />
+    </article>
+  </section>
+  <section class="imagenes">
+    <img id="fondo" src="style/img/carta_encrucijada2.jpg"/>
+    <img id="opcion1" src="style/img/opcion1.png"/>
+    <img id="opcion2" src="style/img/opcion2.png"/>
+    <img id="opcion3" src="style/img/opcion3.png"/>
+    <img id="unica_op" src="style/img/unica_opcion.png"/>
+    <img id="op1parriba" src="style/img/op1parriba.png"/>
+    <img id="op2pabajo" src="style/img/op2pabajo.png"/>
+    <img id="alterna" src="style/img/alternativa.png"/>
+  </section>
+<script type="text/javascript" src="./js/app.js"></script>
+</body>
+</html>
