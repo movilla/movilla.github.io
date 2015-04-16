@@ -10,12 +10,12 @@ document.querySelector('#boton').onclick = function () {
         	var image = document.getElementById('fondo'); // fondo
         	cnx.drawImage(image, 0, 0, 744, 1039);         
         	var texto = document.getElementById('titulo').value; // título
-        	cnx.font = "54px HEADOH";
+        	cnx.font = '54px HEADOH';
         	cnx.textAlign= "center";
         	cnx.fillText(texto, 372, 80);
         	var condicion = document.getElementById('condicion').value; // condición
-        	cnx.font = "italic 22px Ingleby";
-        	cnx.textAlign= "left";
+        	cnx.font = 'italic 22px Ingleby';
+        	cnx.textAlign= 'left';
 	        var start = 0;
 	        var currentLine = 0;
 	        var jumpAt = 60;
@@ -27,8 +27,8 @@ document.querySelector('#boton').onclick = function () {
 	                cnx.fillText(str, 50, 130+(lineHeight*currentLine++));
 	        }
 	        var narracion = document.getElementById('narracion').value;  // narración
-	        cnx.font = "22px Ingleby";
-	        cnx.textAlign= "left";
+	        cnx.font = '22px Ingleby';
+	        cnx.textAlign= 'left';
 	        var start = 0;
         	var jumpAt = 60;
 	        var lineHeight = 30;
@@ -105,28 +105,28 @@ document.querySelector('#boton').onclick = function () {
 	                while (start < segunda_opcion.length) {
 	                        str = segunda_opcion.substr(start,jumpAt);
 	                        start += jumpAt;
-	                        cnx.fillText(str, 50, 225+(lineHeight*currentLine++));
+	                        cnx.fillText(str, 50, 230+(lineHeight*currentLine++));
 	                }
 	        }
 	        if (document.getElementById('option3').value == '1') { // opción 3
 	                var opcion3 = document.getElementById('opcion3');
-	                cnx.drawImage(opcion3, 35, 220+(lineHeight*currentLine++), 672, 41);
+	                cnx.drawImage(opcion3, 35, 230+(lineHeight*currentLine++), 672, 41);
 	        }
 	        if (document.getElementById('option3').value == '2') { // opción unica
 	                var unica_op = document.getElementById('unica_op');
-	                cnx.drawImage(unica_op, 35, 220+(lineHeight*currentLine++), 672, 41);
+	                cnx.drawImage(unica_op, 35, 230+(lineHeight*currentLine++), 672, 41);
 	        }
 	        if (document.getElementById('option3').value == '3') { // opción 3 pulgares arriba
 	                var oparriba = document.getElementById('op1parriba');
-	                cnx.drawImage(oparriba, 35, 220+(lineHeight*currentLine++), 672, 41);
+	                cnx.drawImage(oparriba, 35, 230+(lineHeight*currentLine++), 672, 41);
 	        }
 	        if (document.getElementById('option3').value == '4') { // opción 3 pulgares abajo
 	                var opabajo = document.getElementById('op2pabajo');
-	                cnx.drawImage(opabajo, 35, 220+(lineHeight*currentLine++), 672, 41);
+	                cnx.drawImage(opabajo, 35, 230+(lineHeight*currentLine++), 672, 41);
 	        }
 	        if (document.getElementById('option3').value == '5') { // alternativa
 	                var alter = document.getElementById('alterna');
-	                cnx.drawImage(alter, 35, 220+(lineHeight*currentLine++), 672, 41);
+	                cnx.drawImage(alter, 35, 230+(lineHeight*currentLine++), 672, 41);
 	        }
 	                var opcion3 = document.getElementById('option3');
 	                if (opcion3.value != '0') { // texto opción 3
@@ -140,7 +140,7 @@ document.querySelector('#boton').onclick = function () {
 	                while (start < tercera_opcion.length) {
 	                        str = tercera_opcion.substr(start,jumpAt);
 	                        start += jumpAt;
-	                        cnx.fillText(str, 50, 270+(lineHeight*currentLine++));
+	                        cnx.fillText(str, 50, 280+(lineHeight*currentLine++));
 	                }
 	        }
 	};

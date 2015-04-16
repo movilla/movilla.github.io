@@ -1,7 +1,7 @@
 {
   "name": "Encrucijada",
   "description": "Aplicación para crear cartas de Encrucijada del juego de mesa Dead of Winter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "launch_path": "/index.html",
   "icons": {
     "60": "/style/img/icono_60.png",
