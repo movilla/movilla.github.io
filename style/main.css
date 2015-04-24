@@ -1,40 +1,15 @@
-@font-face {
-  font-family: 'Ingleby';
-  src: url('./fonts/Ingleby_regular.ttf');
-  font-weight: 100;
-
-  font-family: 'HEADOH';
-  src: url('./fonts/HEADOH.TTF');
-  font-weight: 100;
+#fondo {
+  position:fixed;
+  background: url("img/tile-5b.jpg") no-repeat center center fixed;
+  background-size: cover;
+  width:100%;
+  height:100%;
+  top: 0rem;
+  left: 0rem;
+  z-index: -2;
 }
 
-* {
-  font-family: Open Sans, sans-serif, Ingleby, HEADOH;
-  font-size: large;
-}
-
-.barra {
-  position: fixed;
-  top: 0%;
-  left: 0%;
-  width: 100%;
-  background: url('./icons/header-bg-long.jpg') #282323;
-  padding-top: 3rem;
-  box-shadow: 0 1px 2px #333;
-  z-index: 10;
-}
-
-.editar {
-  position: absolute;
-  right: 1.5%;
-  top: 25%;
-}
-
-.edit {
-  margin-top: 0rem !important;
-}
-
-#canvas {
+.foncartap {
   max-height: 80%;
   position: fixed;
   left: 50%;
@@ -42,118 +17,94 @@
   transform: translate(-50%, -50%);
   z-index: -5;
   margin-top: 0.75rem;
-}
-
-.paracv {
-  position: fixed;
-  top: 150%;
-  left: 0%;
-  width: 100%;
-  height: 100%;
+  border-radius: 0.5rem;
+  box-shadow: -0.5rem 0.9rem 0.9rem 0.5rem rgba(0,0,0,80);
   z-index: 2;
-  opacity: 0.7;
-  background-color: #000;
 }
 
-@keyframes parriba {
-        0%	{top: 150%;}
-	100%    {top: 50%;}
+.cartap {
+  max-height: 80%;
+  position: fixed;
+  left: 150%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -5;
+  margin-top: 0.75rem;
+  border-radius: 0.5rem;
+  z-index: 3;
 }
 
-@keyframes parriba2 {
-        0%	{top: 150%;}
-	100%    {top: 0%;}
+@keyframes postcarta {
+        0%	{left: 50%;}
+	100%    {left: 150%;}
 }
 
-@keyframes pabajo {
-        0%	{top: 50%;}
-	100%    {top: 150%;}
+.castasigcss {   
+  max-height: 80%;
+  position: fixed;
+  left: 150%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -5;
+  margin-top: 0.75rem;
+  border-radius: 0.5rem;
+  z-index: 4;
 }
 
-@keyframes pabajo2 {
-        0%	{top: 0%;}
-	100%    {top: 150%;}
+@keyframes precarta {
+        0%	{left: 150%;}
+	100%    {left: 50%;}
 }
 
-@keyframes girapabajo {
-        0%	{transform: rotate(0deg);}
-	100%    {transform: rotate(180deg);}
+.cartaantcss {
+  max-height: 80%;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -5;
+  margin-top: 0.75rem;
+  border-radius: 0.5rem;
+  z-index: 1;
 }
 
-@keyframes giraparriba {
-        0%	{transform: rotate(180deg);}
-	100%    {transform: rotate(0deg);}
-}
-
-.descarga {
-  position: absolute;
-  left: -40%;
-  top: 25%;
-  text-decoration: none;
-}
-
-.desc {
-  margin-top: 0rem !important;
-}
-
-@keyframes mostar {
-        0%	{left: -40%;}
-	100%    {left: 1.5%;}
-}
-
-@keyframes nomostar {
-        0%	{left: 1.5%;}
-	100%    {left: -40%;}
-}
-
-.losinput {
-  padding-top: 2rem;
-}
-
-.titulo, .condicion, .narracion, .narop1, .narop2, .narop3 {
-  font-family: Ingleby;
-  text-align: center;
-  width: 80%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.opcion1, .opcion2, .opcion3 {
-  font-family: Ingleby;
-  text-align: center;
-  width: 80.6%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-::-moz-placeholder { 
-  color: rgb(0,0,0);
+.siguiente:after {
+  position: fixed;
+  right: 0%;
+  bottom: 8%;
+  display: flex;
+  content: url('./icons/arrow_right.png');
+  max-width: 100%;
+  color: white !important;
+  font-size: 26pt;
+  padding: 0;
+  z-index: 5;
+  height: 2em;
+  width: 2em;
   opacity: 0.7;
 }
 
-
-input:focus {
-  border-color: #51A7E8;
-  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.075) inset, 0px 0px 5px rgba(81, 167, 232, 0.5);
+.anterior:after {
+  left: 0%;
+  position: fixed;
+  bottom: 8%;
+  display: flex;
+  content: url('./icons/arrow_left.png');
+  max-width: 100%;
+  color: white !important;
+  font-size: 26pt;
+  padding: 0;
+  z-index: 5;
+  height: 2em;
+  width: 2em;
+  opacity: 0.7;
 }
 
-input {
-  vertical-align: middle;
-  background-color: #FFF;
-  background-repeat: no-repeat;
-  background-position: right center;
-  border: 1px solid #CCC;
-  border-radius: 3px;
-  outline: medium none;
-  margin-top: 1rem;
-}
-
-select {
-  margin-top: 1rem;
-}
-
-.imagenes {
-  display:none;
+.num_carta {
+  position: fixed;
+  top: 0.5%;
+  left: 1%;
+  font-size: 2em;
+  color: #000;
+  z-index: 17;
 }
