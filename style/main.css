@@ -134,7 +134,7 @@
 .empezar:after {
   right: 5%;
   position: fixed;
-  top: 1%;
+  top: 1.2%;
   display: flex;
   content: url('./icons/start.png');
   max-width: 100%;
