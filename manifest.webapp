@@ -1,7 +1,7 @@
 {
-  "name": "Encrucijada",
-  "description": "Aplicación para crear cartas de Encrucijada del juego de mesa Dead of Winter",
-  "version": "0.0.2",
+  "name": "Cartas Aparición",
+  "description": "Aplicación complementaria para el juego de mesa Zombicide 1º Temporada",
+  "version": "0.0.1",
   "launch_path": "/index.html",
   "icons": {
     "60": "/style/img/icono_60.png",

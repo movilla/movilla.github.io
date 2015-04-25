@@ -14,7 +14,7 @@ return input;
 
 
 
-        cdestino = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31', '32', '33', '34', '35', '36', '37', '38', '39', '40', '41', '42', '43', '44']
+        cdestino = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31', '32', '33', '34', '35', '36', '37', '38', '39', '40', '41', '42']
                 cdestino.shuffle();
                 var cdes_1 = cdestino[0]
                 var cdes_2 = cdestino[1]
@@ -58,8 +58,6 @@ return input;
                 var cdes_40 = cdestino[39]
                 var cdes_41 = cdestino[40]
                 var cdes_42 = cdestino[41]
-                var cdes_43 = cdestino[42]
-                var cdes_44 = cdestino[43]
 
                 var mazo_destino = new Array();
                 mazo_destino[0] = 'style/img/back-alert.jpg';
@@ -104,9 +102,7 @@ return input;
                 mazo_destino[39] = 'style/img/'+cdes_39+'.jpg';
                 mazo_destino[40] = 'style/img/'+cdes_40+'.jpg';
                 mazo_destino[41] = 'style/img/'+cdes_41+'.jpg';
-                mazo_destino[42] = 'style/img/'+cdes_42+'.jpg';                
-		mazo_destino[43] = 'style/img/'+cdes_43+'.jpg';
-		mazo_destino[44] = 'style/img/'+cdes_44+'.jpg';
+                mazo_destino[42] = 'style/img/'+cdes_42+'.jpg';
 
                 var botontras = document.getElementById('atras');
 
@@ -183,4 +179,12 @@ document.querySelector('#atras').onclick = function () {
                           if ( viendo == 0 ) { botontras.style.visibility ='hidden'; }
                           imagen_actual.src = mazo_destino[viendo];     
                 },1200);
+};
+
+
+document.querySelector('#inicio').onclick = function () {
+        var nuevo = confirm('¿Volver a barajar?');
+        if (nuevo == true) { 
+                location.href = 'index.html'
+        }
 };
