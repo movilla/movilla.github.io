@@ -6,8 +6,8 @@
       var touch = event.targetTouches[0];
  
       // Place element where the finger is
-      event.target.style.left = touch.pageX + 'px';
-      event.target.style.top = touch.pageY - '15' + 'px';
+      event.target.style.left = (touch.pageX + '50') + 'px';
+      event.target.style.top = touch.pageY + 'px';
       event.preventDefault();
     }, false);
   }
