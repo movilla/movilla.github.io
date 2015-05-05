@@ -15,5 +15,5 @@
 
 #d3 {
   background-color: #00f;
-  left: 10rem;
+  left: 20rem;
 }
