@@ -1,4 +1,4 @@
-var obj = document.getElementById('id');
+var obj = document.getElementById('draggable');
 obj.addEventListener('touchmove', function(event) {
   // If there's exactly one finger inside this element
   if (event.targetTouches.length == 1) {
