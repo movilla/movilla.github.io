@@ -5,15 +5,15 @@
 }
 
 #d1 {
-  background-color: #f00;
+  background-color:#f00;
 }
 
 #d2 {
-  background-color: #0f0;
-  left: 7%;
+  background-color:#0f0;
+  left: 100px;
 }
 
 #d3 {
-  background-color: #00f;
-  left: 13%;
+  background-color:#00f;
+  left: 200px;
 }

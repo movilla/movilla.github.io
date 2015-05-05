@@ -1,19 +1,19 @@
 .draggable {
   width: 4rem;
   height: 4rem;
-  position: absolute;
+  position:absolute;
 }
 
 #d1 {
-  background-color: #f00;
+  background-color:#f00;
 }
 
 #d2 {
-  background-color: #0f0;
-  left: 5%;
+  background-color:#0f0;
+  left: 100px;
 }
 
 #d3 {
-  background-color: #00f;
-  left: 10%;
+  background-color:#00f;
+  left: 200px;
 }
