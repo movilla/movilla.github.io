@@ -10,10 +10,10 @@
 
 #d2 {
   background-color: #0f0;
-  left: 10rem;
+  left: 5%;
 }
 
 #d3 {
   background-color: #00f;
-  left: 20rem;
+  left: 10%;
 }

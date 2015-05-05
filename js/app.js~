@@ -7,7 +7,7 @@
  
       // Place element where the finger is
       event.target.style.left = touch.pageX + 'rem';
-      event.target.style.top = touch.pageY + '5rem';
+      event.target.style.top = touch.pageY + 'rem';
       event.preventDefault();
     }, false);
   }
