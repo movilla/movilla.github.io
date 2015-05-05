@@ -7,7 +7,7 @@
  
       // Place element where the finger is
       event.target.style.left = touch.pageX + 'px';
-      event.target.style.top = touch.pageY + 10 + 'px';
+      event.target.style.top = touch.pageY - 15 + 'px';
       event.preventDefault();
     }, false);
   }
