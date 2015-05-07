@@ -20,4 +20,5 @@
 
 .superviviente {
   position: fixed;
+  max-width: 100%;
 }
