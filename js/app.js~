@@ -2,12 +2,12 @@
  
   for(var i=0;i<nodeList.length;i++) {
     var obj = nodeList[i];
-    obj.addEventListener('touchmove', function(event) {
-      var touch = event.targetTouches[0];
+    obj.addEventListener('mousemove', function(event) {
+      var touch = event.targetTouches[1];
  
       // Place element where the finger is
-      event.target.style.left = touch.pageX-30 + 'px';
-      event.target.style.top = touch.pageY-30 + 'px';
+      event.target.style.left = touch.pageX-40 + 'px';
+      event.target.style.top = touch.pageY-40 + 'px';
       event.preventDefault();
     }, false);
   }
