@@ -4,19 +4,9 @@
   position: absolute;
 }
 
-/*
-#d1:before {
-  position: absolute;
-  display: flex;
-  width: 0%;
-  height: 40%;
-  bottom: 0;
-  left: 1%;
-  content: url('./img/bag-of-rice.jpg');
-  z-index: 5;
+#d1 {
+  background-color:#f00;
 }
-*/
-
 
 #d2 {
   background-color:#0f0;
@@ -27,14 +17,3 @@
   background-color:#00f;
   left: 200px;
 }
-
-.superviviente {
-  max-height: 100%;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  z-index: -5;
-  margin-top: 0.75rem;
-}
-
