@@ -28,7 +28,6 @@
   left: 200px;
 }
 
-
 .superviviente {
   max-height: 100%;
   position: absolute;
