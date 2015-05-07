@@ -4,7 +4,7 @@
   position: absolute;
 }
 
-
+/*
 #d1:before {
   position: absolute;
   display: flex;
@@ -15,6 +15,7 @@
   content: url('./img/bag-of-rice.jpg');
   z-index: 5;
 }
+*/
 
 
 #d2 {
@@ -27,7 +28,7 @@
   left: 200px;
 }
 
-/*
+
 .superviviente {
   max-height: 100%;
   position: absolute;
@@ -37,4 +38,4 @@
   z-index: -5;
   margin-top: 0.75rem;
 }
-*/
+
