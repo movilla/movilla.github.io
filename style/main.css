@@ -4,6 +4,7 @@
   position: absolute;
 }
 
+
 #d1:before {
   position: absolute;
   display: flex;
@@ -15,6 +16,7 @@
   z-index: 5;
 }
 
+
 #d2 {
   background-color:#0f0;
   left: 100px;
@@ -25,6 +27,7 @@
   left: 200px;
 }
 
+
 .superviviente {
   max-height: 100%;
   position: absolute;
@@ -34,3 +37,4 @@
   z-index: -5;
   margin-top: 0.75rem;
 }
+
