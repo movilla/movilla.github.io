@@ -1,4 +1,4 @@
-/*  var nodeList = document.getElementsByClassName('draggable');
+  var nodeList = document.getElementsByClassName('draggable');
  
   for(var i=0;i<nodeList.length;i++) {
     var obj = nodeList[i];
@@ -11,8 +11,9 @@
       event.preventDefault();
     }, false);
   }
-*/
 
+
+/*
 var obj = document.getElementById('d1');
 obj.addEventListener('touchmove', function(event) {
   // If there's exactly one finger inside this element
@@ -24,3 +25,4 @@ obj.addEventListener('touchmove', function(event) {
   }
   event.preventDefault();
 }, false);
+*/
