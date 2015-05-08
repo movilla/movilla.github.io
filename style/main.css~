@@ -30,8 +30,7 @@
 }
 
 #d5 {
-  background-color:#00f;
-  left: 200px;
+  left: 250px;
 }
 
 .superviviente {

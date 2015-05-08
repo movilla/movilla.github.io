@@ -9,14 +9,6 @@
   z-index: 2;
 }
 
-.draggable:hover {
-  z-index: 2;
-}
-
-.draggable:focus {
-  z-index: 2;
-}
-
 #d2 {
   left: 50px;
 }
