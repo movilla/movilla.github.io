@@ -3,7 +3,7 @@ var nodeList = document.getElementsByClassName('draggable');
 for(var i=0;i<nodeList.length;i++) {
     var obj = nodeList[i];
     obj.addEventListener('touchmove', function(event) {
-      obj.style.zIndex = '2';
+      obj[i].style.zIndex = '2';
       var touch = event.targetTouches[0];
       
       var ancho = obj.offsetWidth;
