@@ -2,11 +2,7 @@
   position: fixed;
   width: 19%;
   height: auto;
-  z-index: 0;
-}
-
-.draggable:active {
-  z-index: 2;
+  z-index: 1;
 }
 
 #d2 {
