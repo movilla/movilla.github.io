@@ -9,7 +9,7 @@
       var alto = obj.offsetHeight;
       event.target.style.left = touch.pageX-(ancho/2) + 'px';
       event.target.style.top = touch.pageY-(alto/2) + 'px';
-      event.target.style.style.zIndex = '5';
+      obj.touch.style.style.zIndex = '5';
       event.preventDefault();
     }, false);
   }
