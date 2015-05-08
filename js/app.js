@@ -7,10 +7,10 @@
  
       // Place element where the finger is
       var ancho = obj.offsetWidth;
-      event.target.style.left = touch.pageX-40 + 'px';
-      event.target.style.top = touch.pageY-40 + 'px';
+      var alto = obj.offsetHeight;
+      event.target.style.left = touch.pageX-(ancho/2) + 'px';
+      event.target.style.top = touch.pageY-(alto/2) + 'px';
       event.preventDefault();
-      alert(ancho);
     }, false);
   }
 
