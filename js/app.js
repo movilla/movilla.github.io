@@ -5,7 +5,7 @@
     obj.addEventListener('touchmove', function(event) {
       var touch = event.targetTouches[0];
       
-      obj[0].style.style.zIndex = '5';
+      document.getElementsByClassName('draggable')[0].style.zIndex = '5';
       var ancho = obj.offsetWidth;
       var alto = obj.offsetHeight;
       event.target.style.left = touch.pageX-(ancho/2) + 'px';
