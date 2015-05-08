@@ -13,7 +13,7 @@
   }
 */
 
-var obj = document.getElementById('id1');
+var obj = document.getElementById('d1');
 obj.addEventListener('touchmove', function(event) {
   // If there's exactly one finger inside this element
   if (event.targetTouches.length == 1) {
