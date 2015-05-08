@@ -2,6 +2,7 @@
  
   for(var i=0;i<nodeList.length;i++) {
     var obj = nodeList[i];
+    obj.style.zIndex = '2';
     obj.addEventListener('touchmove', function(event) {
       var touch = event.targetTouches[0];
       
