@@ -8,7 +8,6 @@ for(var i=0;i<nodeList.length;i++) {
       
       var ancho = obj.offsetWidth;
       var alto = obj.offsetHeight;
-      event.target.style.zIndex = '5';
       event.target.style.left = touch.pageX-(ancho/2) + 'px';
       event.target.style.top = touch.pageY-(alto/2) + 'px';
       event.preventDefault();
