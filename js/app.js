@@ -1,11 +1,9 @@
-document.querySelectorAll('.draggable').onclick = function () {
-
 var nodeList = document.getElementsByClassName('draggable');
 
 for(var i=0;i<nodeList.length;i++) {
-    nodeList[i].style.zIndex = '2';
     var obj = nodeList[i];
     obj.addEventListener('touchmove', function(event) {
+      nodeList[i].style.zIndex = '2';
       var touch = event.targetTouches[0];
       
       var ancho = obj.offsetWidth;
@@ -16,6 +14,10 @@ for(var i=0;i<nodeList.length;i++) {
       event.preventDefault();
   }, false);
 }
+
+document.querySelector('.draggable').onclick = function () {
+ alert('pene');
+
 };
 
 
