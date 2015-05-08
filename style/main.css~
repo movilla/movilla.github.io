@@ -30,22 +30,18 @@
 }
 
 #d2 {
-  background-color:#0f0;
   left: 100px;
 }
 
 #d3 {
-  background-color:#00f;
   left: 200px;
 }
 
 #d4 {
-  background-color:#0f0;
   left: 300px;
 }
 
 #d5 {
-  background-color:#00f;
   left: 400px;
 }
 
