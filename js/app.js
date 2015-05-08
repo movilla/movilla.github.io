@@ -4,12 +4,12 @@
     var obj = nodeList[i];
     obj.addEventListener('touchmove', function(event) {
       var touch = event.targetTouches[0];
- 
+      
+      obj[0].style.style.zIndex = '5';
       var ancho = obj.offsetWidth;
       var alto = obj.offsetHeight;
       event.target.style.left = touch.pageX-(ancho/2) + 'px';
       event.target.style.top = touch.pageY-(alto/2) + 'px';
-      obj.touch.style.style.zIndex = '5';
       event.preventDefault();
     }, false);
   }
