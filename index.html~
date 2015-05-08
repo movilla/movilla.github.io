@@ -6,13 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <link rel="stylesheet" type="text/css" href="style/main.css">
 </head>
-<body>
- <section>
-   <img class="draggable" src="style/img/bag-of-rice.jpg" id="d1" />
-   <img class="draggable" src="style/img/baseball-bat.jpg" id="d2" />
-   <img class="draggable" src="style/img/canned-food.jpg" id="d3" />
-   <img class="superviviente" src="style/img/sic-amy.jpg" />
- </section>
- <script type="text/javascript" src="js/app.js"></script>
+<body ontouchstart="">
+  <section>
+    <img class="draggable" src="style/img/bag-of-rice.jpg" id="d1" />
+    <img class="draggable" src="style/img/baseball-bat.jpg" id="d2" />
+    <img class="draggable" src="style/img/canned-food.jpg" id="d3" />
+    <img class="superviviente" src="style/img/sic-amy.jpg" />
+  </section>
+  <script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>

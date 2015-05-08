@@ -13,6 +13,15 @@
     }, false);
   }
 
+if ("ontouchstart" in document.documentElement)
+{
+  // It's a touch screen device.
+}
+else
+{
+  // Others devices.
+}
+
 
 /*
 var obj = document.getElementById('d1');

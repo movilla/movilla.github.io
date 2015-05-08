@@ -13,7 +13,6 @@
     }, false);
   }
 
-
 /*
 var obj = document.getElementById('d1');
 obj.addEventListener('touchmove', function(event) {
