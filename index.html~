@@ -8,9 +8,11 @@
 </head>
 <body ontouchstart="">
   <section>
-    <img class="draggable" src="style/img/bag-of-rice.jpg" id="d1" />
+    <img class="draggable comida" src="style/img/bag-of-rice.jpg" id="d1" />
     <img class="draggable arma" src="style/img/baseball-bat.jpg" id="d2" />
-    <img class="draggable" src="style/img/canned-food.jpg" id="d3" />
+    <img class="draggable comida" src="style/img/canned-food.jpg" id="d3" />
+    <img class="draggable arma" src="style/img/baseball-bat.jpg" id="d4" />
+    <img class="draggable arma" src="style/img/baseball-bat.jpg" id="d5" />
     <img class="superviviente" src="style/img/sic-amy.jpg" />
   </section>
   <script type="text/javascript" src="js/app.js"></script>

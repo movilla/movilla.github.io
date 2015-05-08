@@ -5,26 +5,44 @@
   z-index: 0;
 }
 
-.draggable:active {
+.comida:active {
+  z-index: 2;
+}
+
+.comida:hover {
+  z-index: 2;
+}
+
+.comida:focus {
+  z-index: 2;
+}
+
+.arma:active {
   z-index: 5;
 }
 
-.draggable:hover {
+.arma:hover {
   z-index: 5;
 }
 
-.draggable:focus {
+.arma:focus {
   z-index: 5;
 }
 
 #d2 {
-  background-color:#0f0;
   left: 100px;
 }
 
 #d3 {
-  background-color:#00f;
   left: 200px;
+}
+
+#d4 {
+  left: 300px;
+}
+
+#d5 {
+  left: 400px;
 }
 
 .superviviente {
