@@ -5,7 +5,6 @@
     obj.addEventListener('touchmove', function(event) {
       var touch = event.targetTouches[0];
  
-      // Place element where the finger is
       var ancho = obj.offsetWidth;
       var alto = obj.offsetHeight;
       event.target.style.left = touch.pageX-(ancho/2) + 'px';
