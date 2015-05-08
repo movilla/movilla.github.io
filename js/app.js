@@ -1,8 +1,8 @@
   var nodeList = document.getElementsByClassName('draggable');
  
   for(var i=0;i<nodeList.length;i++) {
+    nodeList[i].style.zIndex = '2';
     var obj = nodeList[i];
-    obj.style.zIndex = '2';
     obj.addEventListener('touchmove', function(event) {
       var touch = event.targetTouches[0];
       
