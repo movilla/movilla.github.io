@@ -5,17 +5,9 @@
   z-index: 0;
 }
 
-
-.draggable:hover {
-  z-index: 5;
-}
-
-/*
-
 .draggable:focus {
   z-index: 5;
 }
-*/
 
 #d2 {
   background-color:#0f0;
