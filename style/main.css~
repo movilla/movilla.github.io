@@ -1,11 +1,8 @@
 .draggable {
-  width: 4rem;
-  height: 4rem;
-  position: absolute;
-}
-
-#d1 {
-  background-color:#f00;
+  position: fixed;
+  width: 17%;
+  height: auto;
+  z-index: 5;
 }
 
 #d2 {
@@ -16,4 +13,12 @@
 #d3 {
   background-color:#00f;
   left: 200px;
+}
+
+.superviviente {
+  left: 0;
+  top: 0;
+  position: fixed;
+  max-width: 100%;
+  z-index: -1;
 }
