@@ -2,30 +2,19 @@
   position: fixed;
   width: 19%;
   height: auto;
+  z-index: 0;
 }
 
-.comida:active {
+.draggable:active {
   z-index: 2;
 }
 
-.comida:hover {
+.draggable:hover {
   z-index: 2;
 }
 
-.comida:focus {
+.draggable:focus {
   z-index: 2;
-}
-
-.arma:active {
-  z-index: 5;
-}
-
-.arma:hover {
-  z-index: 5;
-}
-
-.arma:focus {
-  z-index: 5;
 }
 
 #d2 {
@@ -33,15 +22,15 @@
 }
 
 #d3 {
-  left: 100px;
-}
-
-#d4 {
   left: 150px;
 }
 
-#d5 {
+#d4 {
   left: 200px;
+}
+
+#d5 {
+  left: 250px;
 }
 
 .superviviente {
