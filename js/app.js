@@ -15,12 +15,6 @@ for(var i=0;i<nodeList.length;i++) {
   }, false);
 }
 
-document.querySelector('.draggable').onclick = function () {
- alert('pene');
-
-};
-
-
 /*
 var obj = document.getElementById('d1');
 obj.addEventListener('touchmove', function(event) {
