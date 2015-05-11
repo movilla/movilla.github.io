@@ -27,6 +27,12 @@
   left: 76%;
 }
 
+.derecha {
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+}
+
 .superviviente {
   left: 0;
   top: 0;
