@@ -9,11 +9,13 @@
 }
 
 .cartas {
-  
+width: 10%;
+height: auto;
+position: fixed;
 }
 
 .draggable {
-
+width: 100%;
 }
 
 #d2 {
