@@ -30,7 +30,7 @@
 }
 
 .izquierda {
-  position: relative;
+  position: absolute;
   bottom: 30%;
   left: 76%;
 }
