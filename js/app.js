@@ -6,11 +6,13 @@ for(var i=0;i<nodeList.length;i++) {
 
       var touch = event.targetTouches[0];
       var izq = document.getElementById('mano_izq');
-      alert(izq.offsetLeft);
       var ancho = obj.offsetWidth;
       var alto = obj.offsetHeight;
       event.target.style.left = touch.pageX-(ancho/2) + 'px';
       event.target.style.top = touch.pageY-(alto/2) + 'px';
+      if (event.target.style.top === (izq.offsetLeft)) {
+        alert(izq.offsetLeft);
+      }
       event.preventDefault();
   }, false);
 }
