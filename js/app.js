@@ -16,6 +16,9 @@ for(var i=0;i<nodeList.length;i++) {
       if ((posicion >= (izq.offsetLeft-10)) && (posicion <= (izq.offsetLeft+10))) {
         obj.style.border = '1px solid #000';
       }
+      else {
+        obj.style.border = '';
+      }
       event.preventDefault();
   }, false);
 }
