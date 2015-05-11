@@ -19,7 +19,7 @@ for(var i=0;i<nodeList.length;i++) {
       }
       else {
         this.style.boxShadow = '';
-        this.style.zIndex = '2';
+        this.style.zIndex = '';
       }
       event.preventDefault();
   }, false);
