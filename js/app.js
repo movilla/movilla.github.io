@@ -6,6 +6,7 @@ for(var i=0;i<nodeList.length;i++) {
 
       var touch = event.targetTouches[0];
       var izq = document.getElementById('mano_izq');
+      var dch = document.getElementById('mano_dch');
       var ancho = this.offsetWidth;
       var alto = this.offsetHeight;
       event.target.style.left = touch.pageX-(ancho/2) + 'px';
@@ -14,6 +15,14 @@ for(var i=0;i<nodeList.length;i++) {
       var muestra = document.getElementById('muestra');
       muestra.innerHTML = '<a>'+posicion+'</a><br><a>'+izq.offsetLeft+'</a>';
       if ((posicion >= (izq.offsetLeft-10)) && (posicion <= (izq.offsetLeft+10))) {
+        this.style.boxShadow = '-9px 9px 5px 0px rgba(0,0,0,0.75)';
+        this.style.zIndex = '10';
+      }
+      else {
+        this.style.boxShadow = '';
+        this.style.zIndex = '5';
+      }    
+      if ((posicion >= (dch.offsetLeft-10)) && (posicion <= (dch.offsetLeft+10))) {
         this.style.boxShadow = '-9px 9px 5px 0px rgba(0,0,0,0.75)';
         this.style.zIndex = '10';
       }
