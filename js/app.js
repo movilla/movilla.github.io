@@ -14,7 +14,7 @@ for(var i=0;i<nodeList.length;i++) {
       var muestra = document.getElementById('muestra');
       muestra.innerHTML = '<a>'+posicion+'</a><br><a>'+izq.offsetLeft+'</a>';
       if ((posicion >= (izq.offsetLeft-10)) && (posicion <= (izq.offsetLeft+10))) {
-        this.style.boxShadow = 'box-shadow: -12px 10px 5px 0px rgba(0,0,0,0.75)';
+        this.style.boxShadow = '-12px 10px 5px 0px rgba(0,0,0,0.75)';
       }
       else {
         this.style.boxShadow = '';
