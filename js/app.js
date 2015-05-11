@@ -14,10 +14,10 @@ for(var i=0;i<nodeList.length;i++) {
       var muestra = document.getElementById('muestra');
       muestra.innerHTML = '<a>'+posicion+'</a><br><a>'+izq.offsetLeft+'</a>';
       if ((posicion >= (izq.offsetLeft-10)) && (posicion <= (izq.offsetLeft+10))) {
-        this.style.border = '1px solid #000';
+        this.style.boxShadow = '0 1px 2px #333';
       }
       else {
-        this.style.border = '';
+        this.style.boxShadow = '';
       }
       event.preventDefault();
   }, false);
