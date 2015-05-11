@@ -6,8 +6,8 @@ for(var i=0;i<nodeList.length;i++) {
 
       var touch = event.targetTouches[0];
       var izq = document.getElementById('mano_izq');
-      var ancho = obj.offsetWidth;
-      var alto = obj.offsetHeight;
+      var ancho = this.offsetWidth;
+      var alto = this.offsetHeight;
       event.target.style.left = touch.pageX-(ancho/2) + 'px';
       event.target.style.top = touch.pageY-(alto/2) + 'px';
       var posicion = Math.floor(touch.pageX-(ancho*1.5));
