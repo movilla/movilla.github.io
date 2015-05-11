@@ -11,8 +11,10 @@ for(var i=0;i<nodeList.length;i++) {
       event.target.style.left = touch.pageX-(ancho/2) + 'px';
       event.target.style.top = touch.pageY-(alto/2) + 'px';
       var posicion = touch.pageX-(ancho/2);
+      alert(posicion);
+      alert(izq.offsetLeft);
       if (posicion == izq.offsetLeft) {
-        alert(izq.offsetLeft);
+
       }
       event.preventDefault();
   }, false);
