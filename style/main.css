@@ -4,8 +4,8 @@
   position: relative;
   max-width: 100%;
   max-height: 100%;
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 100%;
 }
 
 .draggable {
@@ -50,8 +50,8 @@
   max-width: 100%;
   max-height: 100%;
   z-index: -1;
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 100%;
 }
 
 #muestra {
