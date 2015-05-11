@@ -13,7 +13,7 @@ for(var i=0;i<nodeList.length;i++) {
       var posicion = Math.floor(touch.pageX);
       var muestra = document.getElementById('muestra');
       muestra.innerHTML = '<a>'+posicion+'</a><br><a>'+izq.offsetLeft+'</a>';
-      if ((posicion === izq.offsetLeft) || (posicion === izq.offsetLeft+10) || (posicion === izq.offsetLeft-10)) {
+      if (((posicion >= (izq.offsetLeft-10)) && (posicion <= (izq.offsetLeft-10))) {
         alert(izq.offsetLeft);
       }
       event.preventDefault();
