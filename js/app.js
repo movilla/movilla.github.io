@@ -6,7 +6,7 @@ for(var i=0;i<nodeList.length;i++) {
 
       var touch = event.targetTouches[0];
       var izq = document.getElementById('mano_izq');
-      alert(izq);
+      alert(izq.offsetLeft);
       var ancho = obj.offsetWidth;
       var alto = obj.offsetHeight;
       event.target.style.left = touch.pageX-(ancho/2) + 'px';
