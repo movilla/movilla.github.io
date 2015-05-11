@@ -49,15 +49,13 @@ z-index: 2;
 }
 
 .superviviente {
-  left: 50%;
-  top: 50%;
   position: fixed;
-  max-width: 100%;
   max-height: 100%;
   z-index: 1;
   width: auto;
   height: 100%;
-  transform: translate(-50%, -50%);
+  top: 0%;
+  left: 0%;
 }
 
 #muestra {
