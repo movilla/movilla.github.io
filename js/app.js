@@ -12,7 +12,7 @@ for(var i=0;i<nodeList.length;i++) {
       event.target.style.top = touch.pageY-(alto/2) + 'px';
       var posicion = touch.pageX-(ancho/2);
       var muestra = document.getElementById('muestra');
-      muestra.innerHTML = '<a>'.posicion.'</a><br><a>'.izq.offsetLeft.'</a>';
+      muestra.innerHTML = '<a>'+posicion+'</a><br><a>'+izq.offsetLeft+'</a>';
       if (posicion == izq.offsetLeft) {
         alert(izq.offsetLeft);
       }
