@@ -3,10 +3,10 @@ var nodeList = document.getElementsByClassName('draggable');
 for(var i=0;i<nodeList.length;i++) {
     var obj = nodeList[i];
     obj.addEventListener('touchmove', function(event) {
-      var lista = document.getElementsByClassName('draggable');
 
       var touch = event.targetTouches[0];
-      
+      var izq = document.getElementById('mano_izq');
+      alert(izq);
       var ancho = obj.offsetWidth;
       var alto = obj.offsetHeight;
       event.target.style.left = touch.pageX-(ancho/2) + 'px';
