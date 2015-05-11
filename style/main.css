@@ -6,6 +6,7 @@
   max-height: 100%;
   width: auto;
   height: 100%;
+  z-index: -1;
 }
 
 .cartas {
@@ -16,6 +17,7 @@ height: auto;
 .draggable {
 width: 13%;
 position: fixed;
+z-index: 2;
 }
 
 #d2 {
@@ -52,7 +54,7 @@ position: fixed;
   position: fixed;
   max-width: 100%;
   max-height: 100%;
-  z-index: -1;
+  z-index: 1;
   width: auto;
   height: 100%;
   transform: translate(-50%, -50%);
