@@ -18,11 +18,7 @@ for(var i=0;i<nodeList.length;i++) {
         this.style.boxShadow = '-9px 9px 5px 0px rgba(0,0,0,0.75)';
         this.style.zIndex = '10';
       }
-      else {
-        this.style.boxShadow = '';
-        this.style.zIndex = '5';
-      }    
-      if ((posicion >= (dch.offsetLeft-10)) && (posicion <= (dch.offsetLeft+10))) {
+      else if ((posicion >= (dch.offsetLeft-10)) && (posicion <= (dch.offsetLeft+10))) {
         this.style.boxShadow = '-9px 9px 5px 0px rgba(0,0,0,0.75)';
         this.style.zIndex = '10';
       }
