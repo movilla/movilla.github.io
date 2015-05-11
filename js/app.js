@@ -21,7 +21,7 @@ for(var i=0;i<nodeList.length;i++) {
       }
       event.preventDefault();
   }, false);
-}
+};
 
 /*
 var obj = document.getElementById('d1');
