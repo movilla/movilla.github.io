@@ -43,18 +43,20 @@ width: auto;
 
 .hand {
   transform: scale(0.1);
-  left: 38%;
-  position: fixed;
+  margin-bottom: -7.5rem;
+  position: absolute;
   bottom: -4%;
   z-index: 10;
+  margin-left: -8rem;
 }
 
 .hand_dhc {
   transform: scale(0.1);
-  left: 22%;
-  position: fixed;
+  margin-bottom: -7.5rem;
+  position: absolute;
   bottom: -4%;
   z-index: 10;
+  margin-left: -7.5rem;
 }
 
 .derecha {
