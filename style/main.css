@@ -49,3 +49,9 @@
   max-height: 100%;
   z-index: -1;
 }
+
+#muestra {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+}
