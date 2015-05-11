@@ -30,7 +30,7 @@
 }
 
 .izquierda {
-  position: absolute;
+  position: relative;
   bottom: 30%;
   left: 76%;
 }
@@ -44,7 +44,7 @@
 .superviviente {
   left: 0;
   top: 0;
-  position: relative;
+  position: fixed;
   max-width: 100%;
   max-height: 100%;
   z-index: -1;
