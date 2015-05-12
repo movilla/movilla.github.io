@@ -30,6 +30,7 @@ for(var i=0;i<nodeList.length;i++) {
       }
       if (((posicion >= (papelera.offsetLeft-10)) && (posicion <= (papelera.offsetLeft+10))) && ((posiciontop >= (papelera.offsetTop-40)) && (posiciontop <= (papelera.offsetTop+20)))) {
         var delet = confirm('¿Eliminar carta?');
+        false
         if (delet == true) { 
 //          this.style.display = 'none';
             this.parentNode.removeChild(this);
