@@ -17,8 +17,8 @@
   z-index: 2;
   height: 47%;
   width: auto;
-/*  border-radius: 6px;
-  border: 1px solid black; */
+  border-radius: 6px;
+  border: 1px solid black;
 }
 
 #d2 {
@@ -81,4 +81,5 @@
   bottom: 10%;
   right: 10%;
   font-size: large;
+  display: none;
 }
