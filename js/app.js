@@ -17,18 +17,15 @@ for(var i=0;i<nodeList.length;i++) {
       if ((posicion >= (izq.offsetLeft-10)) && (posicion <= (izq.offsetLeft+10))) {
         this.style.boxShadow = '-9px 9px 5px 0px rgba(0,0,0,0.75)';
         this.style.zIndex = '10';
-        izq.style.display = 'none';
       }
       else if ((posicion >= (dch.offsetLeft-10)) && (posicion <= (dch.offsetLeft+10))) {
         this.style.boxShadow = '-9px 9px 5px 0px rgba(0,0,0,0.75)';
         this.style.zIndex = '10';
-        dch.style.display = 'none';
       }
       else {
         this.style.boxShadow = '';
         this.style.zIndex = '5';
         dch.style.display = '';
-        izq.style.display = '';
       }
       event.preventDefault();
   }, false);
