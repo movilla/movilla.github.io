@@ -15,7 +15,7 @@ for(var i=0;i<nodeList.length;i++) {
       var posiciontop = Math.floor(touch.pageY);
       var muestra = document.getElementById('muestra');
       muestra.innerHTML = '<a>'+posicion+'</a><br><a>'+posiciontop+'</a><br><a>'+izq.offsetLeft+'</a><br><a>'+izq.offsetTop+'</a>';
-      if (((posicion >= (izq.offsetLeft-10)) && (posicion <= (izq.offsetLeft+10))) && ((posiciontop >= (izq.offsetTop-20)) && (posiciontop <= (izq.offsetTop+20)))) {
+      if (((posicion >= (izq.offsetLeft-10)) && (posicion <= (izq.offsetLeft+10))) && ((posiciontop >= (izq.offsetTop-40)) && (posiciontop <= (izq.offsetTop+40)))) {
         this.style.boxShadow = '-9px 9px 5px 0px rgba(0,0,0,0.75)';
         this.style.zIndex = '10';
       }
