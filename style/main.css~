@@ -13,11 +13,10 @@
 }
 
 .draggable {
-  position: fixed;
-  z-index: 2;
-  height: 47%;
-  width: auto;
-  border-radius: 6px;
+position: fixed;
+z-index: 2;
+height: 47%;
+width: auto;
 }
 
 #d2 {
