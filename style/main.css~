@@ -45,7 +45,7 @@
 
 .hand {
   transform: scale(0.1);
-  margin-bottom: -4.5rem;
+  margin-bottom: -6.5rem;
   position: absolute;
   bottom: -4%;
   z-index: 10;
@@ -54,7 +54,7 @@
 
 .hand_dhc {
   transform: scale(0.1);
-  margin-bottom: -4.5rem;
+  margin-bottom: -6.5rem;
   position: absolute;
   bottom: -4%;
   z-index: 10;
