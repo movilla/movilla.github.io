@@ -26,7 +26,6 @@ for(var i=0;i<nodeList.length;i++) {
       else {
         this.style.boxShadow = '';
         this.style.zIndex = '5';
-        dch.style.display = '';
       }
       event.preventDefault();
   }, false);

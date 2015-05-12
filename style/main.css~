@@ -81,4 +81,5 @@
   bottom: 10%;
   right: 10%;
   font-size: large;
+  display: none;
 }
