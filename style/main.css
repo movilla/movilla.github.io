@@ -67,6 +67,21 @@
   left: 52%;
 }
 
+.paper {
+  position: absolute;
+  bottom: 30%;
+  left: 4%;
+}
+
+.delete {
+  transform: scale(0.1);
+  margin-bottom: -6.5rem;
+  position: absolute;
+  bottom: -4%;
+  z-index: 10;
+  margin-left: -7.5rem;
+}
+
 .superviviente {
   position: fixed;
   max-height: 100%;
