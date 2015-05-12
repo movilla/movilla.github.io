@@ -7,15 +7,15 @@ for(var i=0;i<nodeList.length;i++) {
       var touch = event.targetTouches[0];
       var izq = document.getElementById('mano_izq');
       var dch = document.getElementById('mano_dch');
-      var ancho = Math.floor(this.offsetWidth);
-      var alto = Math.floor(this.offsetHeight);
+      var ancho = this.offsetWidth;
+      var alto = this.offsetHeight;
       event.target.style.left = touch.pageX-(ancho/2) + 'px';
       event.target.style.top = touch.pageY-(alto/2) + 'px';
       var posicion = Math.floor(touch.pageX);
       var posiciontop = Math.floor(touch.pageY);
       var muestra = document.getElementById('muestra');
       muestra.innerHTML = '<a>'+posicion+'</a><br><a>'+posiciontop+'</a><br><a>'+izq.offsetLeft+'</a><br><a>'+izq.offsetTop+'</a>';
-      if (((posicion >= (izq.offsetLeft-10)) && (posicion <= (izq.offsetLeft+10))) && ((posiciontop >= (izq.offsetTop-40)) && (posiciontop <= (izq.offsetTop+20)))) {
+/*      if (((posicion >= (izq.offsetLeft-10)) && (posicion <= (izq.offsetLeft+10))) && ((posiciontop >= (izq.offsetTop-40)) && (posiciontop <= (izq.offsetTop+20)))) {
         this.style.boxShadow = '-9px 9px 5px 0px rgba(0,0,0,0.75)';
         this.style.zIndex = '10';
       }
@@ -27,6 +27,7 @@ for(var i=0;i<nodeList.length;i++) {
         this.style.boxShadow = '';
         this.style.zIndex = '5';
       }
+*/
       event.preventDefault();
   }, false);
 };
