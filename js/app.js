@@ -16,11 +16,11 @@ for(var i=0;i<nodeList.length;i++) {
       var posiciontop = Math.floor(touch.pageY);
       var muestra = document.getElementById('muestra');
       muestra.innerHTML = '<a>'+posicion+'</a><br><a>'+posiciontop+'</a><br><a>'+izq.offsetLeft+'</a><br><a>'+izq.offsetTop+'</a>';
-      if (((posicion >= (izq.offsetLeft-10)) && (posicion <= (izq.offsetLeft+10))) && ((posiciontop >= (izq.offsetTop-40)) && (posiciontop <= (izq.offsetTop+20)))) {
+      if (((posicion >= (izq.offsetLeft-10)) && (posicion <= (izq.offsetLeft+10))) && ((posiciontop >= (izq.offsetTop-40)) && (posiciontop <= (izq.offsetTop+10)))) {
         this.style.boxShadow = '-9px 9px 5px 0px rgba(0,0,0,0.75)';
         this.style.zIndex = '10';
       }
-      else if (((posicion >= (dch.offsetLeft-10)) && (posicion <= (dch.offsetLeft+10))) && ((posiciontop >= (dch.offsetTop-40)) && (posiciontop <= (dch.offsetTop+20)))) {
+      else if (((posicion >= (dch.offsetLeft-10)) && (posicion <= (dch.offsetLeft+10))) && ((posiciontop >= (dch.offsetTop-40)) && (posiciontop <= (dch.offsetTop+10)))) {
         this.style.boxShadow = '-9px 9px 5px 0px rgba(0,0,0,0.75)';
         this.style.zIndex = '10';
       }
@@ -28,7 +28,7 @@ for(var i=0;i<nodeList.length;i++) {
         this.style.boxShadow = '';
         this.style.zIndex = '5';
       }
-      if (((posicion >= (papelera.offsetLeft-10)) && (posicion <= (papelera.offsetLeft+10))) && ((posiciontop >= (papelera.offsetTop-40)) && (posiciontop <= (papelera.offsetTop+20)))) {
+      if (((posicion >= (papelera.offsetLeft-20)) && (posicion <= (papelera.offsetLeft+20))) && ((posiciontop >= (papelera.offsetTop-40)) && (posiciontop <= (papelera.offsetTop+10)))) {
  //       var delet = confirm('¿Eliminar carta?');
 //        false
  //       if (delet == true) { 
