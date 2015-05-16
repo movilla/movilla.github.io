@@ -79,6 +79,7 @@
   bottom: -4%;
   z-index: 10;
   margin-left: -7.5rem;
+  filter: invert(1);
 }
 
 .superviviente {
