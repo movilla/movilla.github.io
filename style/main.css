@@ -84,6 +84,7 @@
 
 .superviviente {
   position: fixed;
+  text-align: center;
   max-height: 100%;
   width: auto;
   height: 100%;
