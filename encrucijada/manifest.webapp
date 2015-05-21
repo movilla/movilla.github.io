@@ -1,0 +1,16 @@
+{
+  "name": "Encrucijada",
+  "description": "Aplicación para crear cartas de Encrucijada del juego de mesa Dead of Winter",
+  "version": "0.0.3",
+  "launch_path": "/index.html",
+  "icons": {
+    "60": "/style/img/icono_60.png",
+    "90": "/style/img/icono_90.png",
+    "128": "/style/img/icono_128.png"
+  },
+  "developer": {
+    "name": "movilla",
+    "url": "https://github.com/movilla"
+  },
+  "default_locale": "es"
+}
