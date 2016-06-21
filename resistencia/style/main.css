@@ -6,8 +6,8 @@
 
 #fondo {
   position: fixed;
-  background: url("img/tablero.jpg") no-repeat bottom center fixed;
-  background-size: 100% auto;
+  background: url("img/tablero.jpg") no-repeat bottom right fixed;
+  background-size: 80% auto;
   width: 100%;
   height: 100%;
   top: 0rem;
@@ -16,11 +16,11 @@
 }
 
 #d1, #d2, #d3, #d4, #d5 {
-  left: 15%;
-  top: -10%;
+  left: 0%;
+  top: 10%;
 }
 
 #d6, #d7, #d8, #d9, #d10 {
-  right: 15%;
-  top: -10%;
+  left: 0%;
+  bottom: 10%;
 }
