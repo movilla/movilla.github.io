@@ -6,7 +6,7 @@
 
 #fondo {
   position: fixed;
-  background: url("img/tablero.jpg") no-repeat bottom right fixed;
+  background: url("img/tablero_s.jpg") no-repeat bottom right fixed;
   background-size: 80% auto;
   width: 100%;
   height: 100%;
