@@ -1,4 +1,7 @@
- .draggable {position:absolute}
+.draggable {
+  position: absolute;
+}
+
 #fondo {
   position:fixed;
   background-color: yellow;
@@ -8,4 +11,14 @@
   top: 0rem;
   left: 0rem;
   z-index: -2;
+}
 
+#d1, #d2, #d3, #d4, #d5 {
+  left: -13%;
+  top: -20%;
+}
+
+#d6, #d7, #d8, #d9, #d10 {
+  right: -13%;
+  bottom: -20%;
+}
