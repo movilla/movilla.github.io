@@ -3,8 +3,8 @@
 }
 
 #fondo {
-  position:fixed;
-  background-color: yellow;
+  position: fixed;
+  background: url("img/tablero.jpg") no-repeat center center fixed;
   background-size: cover;
   width: 100%;
   height: 100%;
