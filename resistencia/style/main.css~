@@ -1,0 +1,11 @@
+ .draggable {position:absolute}
+#fondo {
+  position:fixed;
+  background: url("img/dotz_maptim_sidea.jpg") no-repeat center center fixed;
+  background-size: cover;
+  width:100%;
+  height:100%;
+  top: 0rem;
+  left: 0rem;
+  z-index: -2;
+
