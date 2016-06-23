@@ -2,17 +2,19 @@
   position: absolute;
   width: 7rem;
   height: 7rem;
+  z-index: 2;
 }
 
 #fondo {
-  position: fixed;
-  background: url("img/tablero_s.jpg") no-repeat bottom right fixed;
+  position: absolute;
+  background: url("img/tablero_s.png") no-repeat bottom right fixed;
   background-size: 80% auto;
   width: 100%;
   height: 100%;
   top: 0rem;
   left: 0rem;
   z-index: -2;
+  background-color: #eee;
 }
 
 #d1, #d2, #d3, #d4, #d5 {
@@ -23,4 +25,37 @@
 #d6, #d7, #d8, #d9, #d10 {
   left: 0%;
   bottom: 10%;
+}
+
+#d11 {
+  width: 12rem;
+  height: auto;
+  left: 25%;
+  top: 10%;
+}
+
+#d12 {
+  width: 9rem;
+  height: auto;
+  left: 70%;
+  top: 10%;
+}
+
+.play {
+  position: absolute;
+  right: 1%;
+  top: 1%;
+  width: 3rem;
+  height: auto;
+  z-index: -1;
+}
+
+.pause {
+  position: absolute;
+  right: 1%;
+  top: 1%;
+  width: 3rem;
+  height: auto;
+  z-index: 1;
+  visibility: hidden;
 }
