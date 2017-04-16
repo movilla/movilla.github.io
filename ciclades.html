@@ -1,23 +1,35 @@
-<!DOCTYPE html>
+<!DOCKTYPE html>
 <html>
+<head>
+<title>Parcial HTML5</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="colacilli.css">
+<script src="Colacilli.js"></script>
+</head>
+ 
 <body>
-
-<p>Sortea los dioses.</p>
-
-<button onclick="myFunction()">Dale Julio-Jose</button>
-
-<p id="demo"></p>
-
-<script>
-var fruit = ['cherries', 'apples', 'bananas'];
-//var fruits = ["Zeus", "Ares", "Poseidon", "Atenea"];
-document.getElementById("demo").innerHTML = fruit;
-
-function myFunction() {
-    fruit.sort();
-    document.getElementById("demo").innerHTML = fruit;
-}
-</script>
-
-</body>
+<header>
+<h1>Decisión que vas a tomar</h1>
+<link href='http://fonts.googleapis.com/css?family=Finger+Paint' rel='stylesheet' type='text/css'>
+</header>
+ 
+<article>
+ 
+<textarea id="areadetexto" placeholder="Escribe aquí la decisíon que queres tomar..." title="Decisión" required="true"></textarea>
+ 
+<input id="submit" type="submit" value="Enviar" onclick=decision()>
+ 
+<section>
+ 
+</section>
+ 
+</article>
+ 
+<footer>
+App para Android en HTML5 - Rocio Colacilli
+ 
+</footer>
+<body>
 </html>
+    
+    
