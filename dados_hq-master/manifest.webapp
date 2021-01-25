@@ -1,0 +1,16 @@
+{
+  "name": "Dados HQ",
+  "description": "Aplicación que permite simular una tirada de dados para el juego de mesa Heroquest",
+  "version": "0.0.5",
+  "launch_path": "/index_1.html",
+  "icons": {
+    "60": "/img/icono_60.png",
+    "90": "/img/icono_90.png",
+    "128": "/img/icono_128.png"
+  },
+  "developer": {
+    "name": "movilla",
+    "url": "https://github.com/movilla"
+  },
+  "default_locale": "es"
+}

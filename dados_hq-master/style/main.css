@@ -1,0 +1,487 @@
+@font-face {
+  font-family:'FiraSans';
+  src: url('./fonts/FiraSans-Light.ttf');
+  font-weight: 100;
+}
+
+* {
+  font-family: FiraSans, Open Sans, sans-serif;
+}
+
+#background {
+  position:fixed;
+  width:100%;
+  height:100%;
+  background: #FFFFFF;
+  background: -moz-linear-gradient(top, #FFFFFF 0%, #000000 100%);
+  background: linear-gradient(to bottom, #FFFFFF 0%, #000000 100%);
+  top: 0rem;
+  left: 0rem;
+}
+
+.panel_lateral_iz:before {
+  position: fixed;
+  width: 3.5rem;
+  bottom: 0;
+  left: 0;
+  content: url('./iconos/add.svg');
+  -moz-transform: scale(1.0);
+  display: flex;
+  z-index: 5;
+}
+
+.panel_lateral_dch:before {
+  position: fixed;
+  width: 3.5rem;
+  bottom: 0;
+  right: 0;
+  content: url('./iconos/add.svg');
+  -moz-transform: scale(1.0);
+  display: flex;
+  z-index: 5;
+}
+
+.panel {
+  position: fixed;
+  width: 3.5rem;
+  height: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: -5rem;
+  z-index: 1;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  animation-iteration-count: initial;
+  animation-duration: 0.2s; 
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+.panel_dch {
+  position: fixed;
+  width: 3.5rem;
+  height: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  right: -5rem;
+  z-index: 1;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  animation-iteration-count: initial;
+  animation-duration: 0.2s; 
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+.num_dados {
+  margin-top: 0.21rem;
+  padding: 0.5rem 0.57rem;
+  border-top: 0.07rem solid #000;
+  display: inline-block;
+  width: 1.5rem;
+  font-size: smaller;
+  border: 0.07rem solid #000;
+  border-radius: 0.21rem;
+  overflow: hidden;
+  background-color: #FFF;
+  box-shadow: none;
+  color: #000;
+  text-decoration: none;
+}
+
+.dch {
+  padding: 2rem 0.57rem !important;
+}
+
+#num_10 {
+  margin-bottom: 2.75rem;
+}
+
+#original:after {
+  content: url('./iconos/calavera.png');
+  transform: scale(0.7);
+  display: flex;
+  left: -15%;
+  position: absolute;
+  top: 0%;
+}
+
+#hq_es:after {
+  content: url('./iconos/calavera_negra.png');
+  transform: scale(0.7);
+  display: flex;
+  left: -15%;
+  position: absolute;
+  top: 4.6rem;
+}
+
+#dado_6:after {
+  content: url('./iconos/c_seis.png');
+  transform: scale(0.7);
+  display: flex;
+  left: 0%;
+  position: absolute;
+  top: 9.6rem;
+  height: 4.0rem;
+  width: 3.5rem;
+}
+
+@keyframes animacion_panel_iz {
+  0%   { left: -5rem; }
+  100% { left: 0rem; }
+}
+
+@keyframes animacion_panel_iz_no  {
+  0%   { left: 0rem; }
+  100% { left: -5rem; }
+}
+
+@keyframes animacion_panel_dch {
+  0%   { right: -5rem; }
+  100% { right: 0rem; }
+}
+
+@keyframes animacion_panel_dch_no  {
+  0%   { right: 0rem; }
+  100% { right: -5rem; }
+}
+
+.tirador {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+}
+
+.tirar {
+  position: fixed;
+  left: 50%;
+  bottom: 5%;
+  margin-left: -3.57rem;
+  min-width: 7.14rem;
+  min-height: 2.85rem;
+  font-size: inherit;
+  border: medium none;
+  border-radius: 0.2rem;
+  background-color: #fff;
+  box-shadow: none;
+  color: #000;
+  cursor: pointer;
+}
+
+.centro {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -2.85rem;
+  margin-left: -2.85rem;
+}
+
+.centrom {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-left: -1.64rem;
+}
+
+.cen_lat_dcho {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  margin-top: -2.85rem;
+}
+
+.cen_lat_dchom {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+
+.cen_lat_izq {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  margin-top: -2.85rem;
+}
+
+.cen_lat_izqm {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  margin-right: 3.50rem;
+}
+
+.cen_arriba {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  margin-left: -3.0rem;
+}
+
+.cen_arribam {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  margin-left: -1.64rem;
+}
+
+.cen_abajom {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -1.64rem;
+}
+
+.mit_centrom {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-left: -1.64rem;
+}
+
+.mit_derm {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  margin-right: 4.29rem;
+}
+
+.mit_izqm {
+  position: absolute;
+  top: 30%;
+  right: 10%;
+  margin-right: 3.50rem;
+}
+
+.cen_arr_dcho {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  margin-left: -4.29rem;
+}
+
+.cen_arr_dchom {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  margin-right: 3.50rem;
+}
+
+.cen_arr_izq {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  margin-left: -4.29rem;
+}
+
+.cen_arr_izqm {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+.abajo_centrom {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  margin-left: -1.64rem;
+}
+
+@keyframes uno {
+  0% { transform: translate3d(0rem,0rem,0rem) translateZ(0rem) rotateX(0deg) rotateY(0deg) rotateZ(0deg); }
+  100% { transform: translate3d(0rem,0rem,0rem) translateZ(0rem) rotateX(0deg) rotateY(360deg) rotateZ(360deg); }
+}
+
+@keyframes dos {
+  0% { transform: translate3d(0rem,0rem,0rem) translateZ(0rem) rotateX(0deg) rotateY(0deg) rotateZ(0deg); }
+  100% { transform: translate3d(0rem,0rem,0rem) translateZ(0rem) rotateX(0deg) rotateY(270deg) rotateZ(360deg); }
+}
+
+@keyframes tres {
+  0% { transform: translate3d(0rem,0rem,0rem) translateZ(0rem) rotateX(0deg) rotateY(0deg) rotateZ(0deg); }
+  100% { transform: translate3d(0rem,0rem,0rem) translateZ(0rem) rotateX(360deg) rotateY(-90deg) rotateZ(-270deg); }
+}
+
+@keyframes cuatro {
+  0% { transform: translate3d(0rem,0rem,0rem) translateZ(0rem) rotateX(0deg) rotateY(0deg) rotateZ(0deg); }
+  100% { transform: translate3d(0rem,0rem,0rem) translateZ(0rem) rotateX(180deg) rotateY(360deg) rotateZ(270deg); }
+}
+
+@keyframes cinco {
+  0% { transform: translate3d(0rem,0rem,0rem) translateZ(0rem) rotateX(0deg) rotateY(0deg) rotateZ(0deg); }
+  100% { transform: translate3d(0rem,0rem,0rem) translateZ(0rem) rotateX(270deg) rotateY(180deg) rotateZ(90deg); }
+}
+
+@keyframes seis {
+  0% { transform: translate3d(0rem,0rem,0rem) translateZ(0rem) rotateX(0deg) rotateY(0deg) rotateZ(0deg); }
+  100% { transform: translate3d(0rem,0rem,0rem) translateZ(0rem) rotateX(90deg) rotateY(-360deg) rotateZ(360deg); }
+}
+
+.cubo3d {
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: initial;
+  animation-duration: 1.5s;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -moz-transform-origin: 1.64rem 1.64rem 0;
+  transform-origin: 1.64rem 1.64rem 0;
+  animation-fill-mode: forwards;
+}
+
+.solo {
+  width: 5.71rem !important;
+  height: 5.71rem !important;
+  -moz-transform-origin: 2.86rem 2.86rem 0 !important;
+  transform-origin: 2.86rem 2.86rem 0 !important;
+}
+
+.cubo3d div{
+  position: absolute;
+  width: 3.28rem;
+  height: 3.28rem;
+  border: 0.07rem solid #aaa;
+  background: #fff;
+}
+
+.cara1_uno {
+  -moz-transform: translateZ(2.86rem);
+  transform: translateZ(2.86rem);
+}
+
+.cara1_cuatro {
+  -moz-transform: translateZ(1.64rem);
+  transform: translateZ(1.64rem);
+}
+
+.cara2_uno {
+  -moz-transform: rotateY(90deg) translateZ(2.86rem);
+  transform: rotateY(90deg) translateZ(2.86rem);
+}
+
+.cara2_cuatro {
+  -moz-transform: rotateY(90deg) translateZ(1.64rem);
+  transform: rotateY(90deg) translateZ(1.64rem);
+}
+
+.cara3_uno {
+  -moz-transform: rotateY(90deg) rotateX(90deg) translateZ(2.86rem);
+  transform: rotateY(90deg) rotateX(90deg) translateZ(2.86rem);
+}
+
+.cara3_cuatro {
+  -moz-transform: rotateY(90deg) rotateX(90deg) translateZ(1.64rem);
+  transform: rotateY(90deg) rotateX(90deg) translateZ(1.64rem);
+}
+
+.cara4_uno {
+  -moz-transform: rotateY(180deg) rotateZ(90deg) translateZ(2.86rem);
+  transform: rotateY(180deg) rotateZ(90deg) translateZ(2.86rem);
+}
+
+.cara4_cuatro {
+  -moz-transform: rotateY(180deg) rotateZ(90deg) translateZ(1.64rem);
+  transform: rotateY(180deg) rotateZ(90deg) translateZ(1.64rem);
+}
+
+.cara5_uno {
+  -moz-transform: rotateY(-90deg) rotateZ(90deg) translateZ(2.86rem);
+  transform: rotateY(-90deg) rotateZ(90deg) translateZ(2.86rem);
+}
+
+.cara5_cuatro {
+  -moz-transform: rotateY(-90deg) rotateZ(90deg) translateZ(1.64rem);
+  transform: rotateY(-90deg) rotateZ(90deg) translateZ(1.64rem);
+}
+
+.cara6_uno {
+  -moz-transform: rotateX(-90deg) translateZ(2.86rem);
+  transform: rotateX(-90deg) translateZ(2.86rem);
+}
+
+.cara6_cuatro {
+  -moz-transform: rotateX(-90deg) translateZ(1.64rem);
+  transform: rotateX(-90deg) translateZ(1.64rem);
+}
+
+.calavera_uno:before, .calavera_unoa:before {
+  content: url('./iconos/calavera.png');
+  -moz-transform: scale(0.9);
+  display: flex;
+  left: 10%;
+  position: absolute;
+  top: 10%;
+}
+
+.calavera_cuatro:before, .calavera_cuatroa:before {
+  content: url('./iconos/calavera.png');
+  -moz-transform: scale(0.6);
+  display: flex;
+  left: -15%;
+  position: absolute;
+  top: -18%;
+}
+
+.escudo_blanco_uno:before {
+  content: url('./iconos/escudo_blanco.png');
+  -moz-transform: scale(0.9);
+  display: flex;
+  position: absolute;
+  top: 12%;
+  left: 10%;
+}
+
+.escudo_blanco_cuatro:before {
+  content: url('./iconos/escudo_blanco.png');
+  -moz-transform: scale(0.7);
+  display: flex;
+  left: -0.6rem;
+  position: absolute;
+  top: -15%;
+}
+
+.escudo_negro_uno:before {
+  content: url('./iconos/escudo_negro.png');
+  -moz-transform: scale(0.9);
+  display: flex;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+.escudo_negro_cuatro:before {
+  content: url('./iconos/escudo_negro.png');
+  -moz-transform: scale(0.6);
+  display: flex;
+  left: -17%;
+  position: absolute;
+  top: -18%;
+}
+
+.negra:before {
+  content: url('./iconos/negra.png') !important;
+}
+
+.c_uno:before {
+  content: url('iconos/c_uno.png') !important;
+}
+
+.c_dos:before {
+  content: url('./iconos/c_dos.png') !important;
+}
+
+.c_tres:before {
+  content: url('./iconos/c_tres.png') !important;
+}
+
+.c_cuatro:before {
+  content: url('./iconos/c_cuatro.png') !important;
+}
+
+.c_cinco:before {
+  content: url('./iconos/c_cinco.png') !important;
+}
+
+.c_seis:before {
+  content: url('./iconos/c_seis.png') !important;
+}
