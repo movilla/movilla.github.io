@@ -1,0 +1,83 @@
+@media (orientation: portrait) {
+    #portrait{
+        display: block;
+          }
+}
+
+
+* {
+  font-family: Open Sans, sans-serif;
+}
+
+.barra {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  background: url('./header-bg-long.jpg') #282323;
+  padding-top: 5%;
+  box-shadow: 0em -0.1em 0.2em rgba(0,0,0,0.75);
+  z-index: 16;
+  display: flex;
+}
+
+.carta {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7%;
+  max-width: 85%;
+  max-height: 85%;
+  box-shadow: -12px 10px 5px 0px rgba(0,0,0,0.75);
+  z-index: 1;
+}
+
+.cartas {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0em;
+  max-width: 85%;
+  max-height: 85%;
+  z-index: 1;
+  color: #FFF;
+}
+
+
+#reverso {
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    z-index: 20;
+    font-size: 0.7em;
+}
+
+#click {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 20;
+    font-size: 0.7em;
+}
+
+#selector {
+    position: fixed;
+    left: 50%;
+    top: 2%;
+    transform: translate(-50%, -50%);
+    z-index: 20;
+    font-size: 0.7em;
+}
+
+#click, #reverso {
+/*  width: 5em;*/
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  color: #FFF;
+  /*text-shadow: 0.1em 0.1em #000;*/
+
+}
