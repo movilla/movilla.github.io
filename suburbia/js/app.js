@@ -12,7 +12,7 @@ document.querySelector('#click').onclick = function () {
 	//mostrar_carta.innerHTML = '<img id="" class= "" src="./anverso/608.jpg">';
 	}
 	else {
-		alert('Ingrese solo números del 601 a 623');
+		alert('Solo números del 601 a 623');
 	}
 	
 }
@@ -31,7 +31,7 @@ document.querySelector('#reverso').onclick = function () {
 	//mostrar_carta.innerHTML = '<img id="" class= "" src="./anverso/608.jpg">';
 	}
 	else {
-		alert('Ingrese solo números del 601 a 623');
+		alert('Solo números del 601 a 623');
 	}
 	
 }
