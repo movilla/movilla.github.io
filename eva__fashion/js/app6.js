@@ -1,6 +1,6 @@
 document.querySelector('#preg51').onclick = function escribe(pregunta) {
 var predestino = document.getElementById('respuesta');
-predestino.innerHTML = '<<article><a id="texto_int" class="txt_intro_explicacion_cuater">Cierto, pero faltan cosas.</a></article>';
+predestino.innerHTML = '<article><a id="texto_int" class="txt_intro_explicacion_cuater">Cierto, pero faltan cosas.</a></article>';
 }
 
 document.querySelector('#preg52').onclick = function escribe(pregunta) {
