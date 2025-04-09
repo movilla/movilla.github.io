@@ -20,7 +20,7 @@
   top: 0%;
   left: 0%;
   width: 100%;
-  background: url('./2header-bg-long.jpg') #282323;
+  background: url("img/2_header-bg-long.jpg") #282323;
   padding-top: 0.8em;
   box-shadow: 0 1px 2px #333;
   z-index: 16;
@@ -113,4 +113,91 @@
   top: -0.4em;
   margin-left: auto;
   margin-right: auto;
+}
+
+.icono_destino_3 {
+  width: 15rem;
+  height: auto;
+  position: relative;
+  top: -0.4em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.las_respuestas {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+  margin-top: 30%;
+  text-align: center;
+  padding: 0; 
+}
+
+.pregunta {
+  font-family:'Arial';
+  font-size: 1.5em;
+  text-align: center;
+  color: #f60a05;
+  text-shadow: -0.1em 0.1em 0.04em #000
+}
+
+
+.respuestas {
+  font-family:'Arial';
+  font-size: 1em;
+  text-align: left;
+  color: #f60a05;
+  text-shadow: -0.1em 0.1em 0.04em #000;
+  margin-top: 10%;
+}
+
+.txt_intro_explicacion_cuater {
+  font-family:'Arial';
+  color: Black;
+  margin-top: 15%; 
+  font-size: 0.75em;
+  text-align: center;
+  text-shadow: -0.1em 0.1em 0.04em #000;
+}
+
+
+.txt_intro_explicacion_quinques {
+  font-family:'Arial';
+  color: Black;
+  margin-top: 15%; 
+  font-size: 0.75em;
+  text-align: center;
+  text-shadow: -0.1em 0.1em 0.04em #000;
+}
+
+
+.txt_intro_explicacion_seis {
+  font-family:'Arial';
+  color: Black;
+  margin-top: 15%; 
+  font-size: 0.75em;
+  text-align: center;
+  text-shadow: -0.1em 0.1em 0.04em #000;
+}
+
+
+.txt_intro_explicacion_siete {
+  font-family:'Arial';
+  color: Black;
+  margin-top: 15%; 
+  font-size: 0.75em;
+  text-align: center;
+  text-shadow: -0.1em 0.1em 0.04em #000;
+}
+
+
+.respueston   {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+  margin-top: 15%;
+  text-align: center;
+  padding: 0; ´
 }
