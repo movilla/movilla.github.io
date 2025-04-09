@@ -11,7 +11,7 @@ predestino.innerHTML = '<article><a id="texto_int" class="txt_intro_explicacion_
 
 document.querySelector('#preg3').onclick = function escribe(pregunta) {
 var predestino = document.getElementById('respuesta');
-predestino.innerHTML = '<article><a id="texto_int" class="txt_intro_explicacion_cuater">Ohhhh esa en realidad es la correcta… Pero ¿Por qué elegir, pudiendo tenerlas todas?</a></article>';
+predestino.innerHTML = '<article><a id="texto_int" class="txt_intro_explicacion_cuater">Ohhhh esa en realidad es la correcta… Pero pudiendo tenerlas todas :]</a></article>';
 }
 
 document.querySelector('#preg4').onclick = function escribe(pregunta) {
