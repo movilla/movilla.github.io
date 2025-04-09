@@ -129,7 +129,7 @@
   margin-left: auto;
   margin-right: auto;
   display: table;
-  margin-top: 30%;
+  margin-top: 15%;
   text-align: center;
   padding: 0; 
 }
@@ -147,14 +147,14 @@
   font-family:'Arial';
   font-size: 1em;
   text-align: left;
-  color: #f60a05;
+  color: White;
   text-shadow: -0.1em 0.1em 0.04em #000;
   margin-top: 10%;
 }
 
 .txt_intro_explicacion_cuater {
   font-family:'Arial';
-  color: Black;
+  color: Blue;
   margin-top: 15%; 
   font-size: 0.75em;
   text-align: center;
