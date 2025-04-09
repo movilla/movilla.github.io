@@ -15,6 +15,17 @@
   z-index: -2;
 }
 
+.barra {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  background: #282323;
+  padding-top: 0.8em;
+  box-shadow: 0 1px 2px #333;
+  z-index: 16;
+}
+
 .empezar {
   position: relative;
   margin-left: auto;
@@ -28,14 +39,39 @@
 .txt_intro {
   font-family:'Arial';
   color: Purple;
-  /*text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;*/
   font-size: 3em;
   text-align: center;
   color: #f60a05;
   text-shadow: -0.1em 0.1em 0.04em #000;
 }
 
+.txt_intro_explicacion {
+  font-family:'Arial';
+  color: Purple;
+  font-size: 1.5em;
+  text-align: center;
+  color: #f60a05;
+  text-shadow: -0.1em 0.1em 0.04em #000;
+}
 
+
+.txt_intro_explicacion_bis {
+  font-family:'Arial';
+  color: Purple;
+  font-size: 1.5em;
+  text-align: center;
+  color: #f60a05;
+  text-shadow: -0.1em 0.1em 0.04em #000;
+}
+
+
+.icono_destino {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  left: 45%;
+  top: -0.4em;
+}
 
 
 
