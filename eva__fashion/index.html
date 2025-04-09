@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset='utf-8'>
-  <title>TEST</title>
+  <title>El juego de Eva Fashion</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <link rel="stylesheet" type="text/css" href="style/main.css">
 </head>
@@ -23,15 +23,37 @@
     <article>
       <a id="texto_int" class="txt_intro">Bienvenida al juego de Eva__Fashion</a>
     </article>
+  </section>
     <p>
     <p>
+    <section id="eleccion" class="empezar_2">
     <article>
       <a id="texto_int" class="txt_intro_explicacion">El juego es simple...</a>
     </article>
+    </section>
+    <section id="eleccion" class="empezar_3">
     <article>
       <a id="texto_int" class="txt_intro_explicacion_bis">Debes de contestar una serie de preguntas para obtener tu regalito</a>
     </article>
   </section>
+      <section id="eleccion" class="empezar_3">
+     <article>
+      <a id="texto_int" class="txt_intro_explicacion_ter">Pulse el icono del regalo para continuar</a>
+    </article>
+    <p>
+    <article>
+        <a href="./index_2.html" class="regalo" id="carta_destino">
+         <img  id="icon_dest" class="icono_destino_2" data-arriba="si" src="./style/img/regalo_2_.webp">   
+       </a>
+  </section>
+  <script>
+        let navegador = navigator.userAgent;
+        if (navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/webOS/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPod/i) || navigator.userAgent.match(/BlackBerry/i) || navigator.userAgent.match(/Windows Phone/i)) {
+            alert("Hola Eva!!!");
+        } else {
+            alert("Ups!!! para ver bien esto, necesitas un móvil :[");
+        }
+  </script>
   <script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>

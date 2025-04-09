@@ -20,7 +20,7 @@
   top: 0%;
   left: 0%;
   width: 100%;
-  background: url('./2_header-bg-long.jpg') #282323;
+  background: url('./2header-bg-long.jpg') #282323;
   padding-top: 0.8em;
   box-shadow: 0 1px 2px #333;
   z-index: 16;
@@ -31,10 +31,32 @@
   margin-left: auto;
   margin-right: auto;
   display: table;
+  margin-top: 45%;
+  text-align: center;
+  padding: 0; 
+}
+
+.empezar_2 {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
   margin-top: 15%;
   text-align: center;
   padding: 0; 
 }
+
+
+.empezar_3 {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+  margin-top: 15%;
+  text-align: center;
+  padding: 0; 
+}
+
 
 .txt_intro {
   font-family:'Arial';
@@ -48,7 +70,7 @@
 .txt_intro_explicacion {
   font-family:'Arial';
   color: Purple;
-  font-size: 1.5em;
+  font-size: 2em;
   text-align: center;
   color: #f60a05;
   text-shadow: -0.1em 0.1em 0.04em #000;
@@ -64,11 +86,29 @@
   text-shadow: -0.1em 0.1em 0.04em #000;
 }
 
+.txt_intro_explicacion_ter {
+  font-family:'Arial';
+  color: Purple;
+  font-size: 1em;
+  text-align: center;
+  color: #f60a05;
+  text-shadow: -0.1em 0.1em 0.04em #000;
+}
+
 
 .icono_destino {
-  width: 32px;
-  height: 32px;
+  width: 3rem;
+  height: 3rem;
   position: relative;
-  left: 45%;
+  left: 40%;
   top: -0.4em;
+}
+
+.icono_destino_2 {
+  width: 5rem;
+  height: 5rem;
+  position: relative;
+  top: -0.4em;
+  margin-left: auto;
+  margin-right: auto;
 }
