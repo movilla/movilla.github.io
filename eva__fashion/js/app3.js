@@ -1,11 +1,11 @@
 document.querySelector('#preg21').onclick = function escribe(pregunta) {
 var predestino = document.getElementById('respuesta');
-predestino.innerHTML = '<article><a id="texto_int" class="txt_intro_explicacion_cuater">Es cierto que se la merecía, pero no.</a></article>';
+predestino.innerHTML = '<article><a id="texto_int" class="txt_intro_explicacion_cuater">Es cierto que se lo merece, pero no.</a></article>';
 }
 
 document.querySelector('#preg22').onclick = function escribe(pregunta) {
 var predestino = document.getElementById('respuesta');
-predestino.innerHTML = '<article><a id="texto_int" class="txt_intro_explicacion_cuater">Se merecía eso y más, pero no.</a></article>';
+predestino.innerHTML = '<article><a id="texto_int" class="txt_intro_explicacion_cuater">Se merece eso y otras cosas, pero no.</a></article>';
 }
 
 

@@ -11,7 +11,7 @@ predestino.innerHTML = '<article><a id="texto_int" class="txt_intro_explicacion_
 
 document.querySelector('#preg33').onclick = function escribe(pregunta) {
 var predestino = document.getElementById('respuesta');
-predestino.innerHTML = '<article><a id="texto_int" class="txt_intro_explicacion_cuater">Nop, eso lo hace cuando le tiras alguna y está en público</a></article>';
+predestino.innerHTML = '<article><a id="texto_int" class="txt_intro_explicacion_cuater">Nop, eso lo hace cuando le tiras alguna y es observa por terceros</a></article>';
 }
 
 document.querySelector('#preg34').onclick = function escribe(pregunta) {
