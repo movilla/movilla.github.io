@@ -1,0 +1,122 @@
+<html><head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<title>MR2 data checking tool</title>
+	<link rel="stylesheet" href="../style/style.css">
+	<link rel="stylesheet" href="../style/Ferrum/stylesheet.css">
+	<link rel="stylesheet" href="../style/Seshat/stylesheet.css">
+
+	<script src="../js/tools.js"></script>
+	<script src="../js/generator.js"></script>
+	<script src="../js/modmanager.js"></script>
+	<script src="../js/mapgenerator.js"></script>
+	<script src="../js/maprenderer.js"></script>
+	<script src="../js/questgenerator.js"></script>
+	<script src="../js/questrenderer.js"></script>
+	<script src="../js/campaigngenerator.js"></script>
+	<script src="../js/labels.js"></script>
+    <script src="../modules/interface.js"></script>
+    <script src="../modules/md2-rainbowcrossing.js"></script>
+    <script src="../modules/zc-wulfsburg.js"></script>
+    <script src="../modules/zc-friendfoes.js"></script>
+    <script src="../modules/zc-greenhorde.js"></script>
+    <script src="../modules/zc-blackplague.js"></script>
+    <script src="../modules/zc-whitedeath.js"></script>
+    <script src="../modules/zc-eternalempire.js"></script>
+    <script src="../modules/md2-heavenfall.js"></script>
+    <script src="../modules/md2-crystallava.js"></script>
+    <script src="../modules/md2-hellscape.js"></script>
+    <script src="../modules/maps-default.js"></script>
+    <script src="../modules/quests-default.js"></script>
+    <script src="../modules/quests-hellscape.js"></script>
+    <script src="../modules/quests-hellscapewq.js"></script>
+    <script src="../modules/quests-upgradepack.js"></script>
+    <script src="../modules/quests-internet.js"></script>
+    <script src="../modules/quests-ravaged.js"></script>
+    <script src="../modules/quests-rainbowcrossing.js"></script>
+    <script src="../modules/quests-darkbringerpack.js"></script>
+    <script src="../modules/quests-mr.js"></script>
+    <script src="../modules/challenges-default.js"></script>
+    <script src="../modules/campaign.js"></script>
+	<script src="../modules/campaign-upgradepack.js"></script>
+    <script src="../modules/boss.js"></script>
+
+</head><body onload="onl()">
+	<input type="button" value="Summary" onclick="doGenerateSummary()">
+	<input type="button" value="Summary (full)" onclick="doGenerateSummary(true)">
+	<input type="button" value="Boss" onclick="doTestBoss()">
+	<input type="button" value="Campaign" onclick="doTestCampaign()">
+	<input type="button" value="Campaign Text" onclick="doTestCampaignText()">
+	<input type="button" value="Campaign modules" onclick="doTestCampaignModules()">
+	<input type="button" value="Campaigns" onclick="doTestCampaigns()">
+	<input type="button" value="Tiles" onclick="doTestTiles()">
+	<input type="button" value="Quests data" onclick="doCheckQuests()">
+	<input type="button" value="Quest Boss" onclick="doQuestTestBoss()">
+	<input type="button" value="Quests" onclick="doTestQuests()">
+	<input type="button" value="Map Configs" onclick="doTestMapConfigs()">
+	<input type="button" value="Map Elements Index" onclick="doMapElementsIndex()">
+	<hr>
+	<span id="nodeBody"></span>
+</body><script>
+
+function getNodeBody(title) {
+	let
+		node = document.getElementById('nodeBody');
+	node.innerHTML = "<h2>"+title+"</h2>";
+	return node;
+}
+
+function doTestBoss() {
+	Tools.testBoss(getNodeBody("Boss"));
+}
+
+function doTestCampaignText() {
+	Tools.testCampaignText(getNodeBody("Campaign Text"))
+}
+
+function doGenerateSummary(full) {
+	Tools.generateSummary(getNodeBody("Summary"),full);
+}
+
+function doTestCampaign() {
+	Tools.testCampaign(getNodeBody("Campaign"));
+}
+
+function doTestCampaigns() {
+	Tools.testCampaigns(getNodeBody("Campaigns"));
+}
+
+function doTestCampaignModules() {
+	Tools.testCampaignModules(getNodeBody("Campaign Modules"));
+}
+
+function doTestTiles() {
+	Tools.checkTiles(getNodeBody("Tiles"));
+}
+
+function doCheckQuests() {
+	Tools.checkQuests(getNodeBody("Quests Data"));
+}
+
+function doTestQuests() {
+	Tools.testQuests(getNodeBody("Quests"));
+}
+
+function doTestMapConfigs() {
+	Tools.testMapConfigs(getNodeBody("Map Configs"));
+}
+
+function doMapElementsIndex() {
+	Tools.mapElementsIndex(getNodeBody("Map Elements Index"));
+}
+
+function doQuestTestBoss() {
+	Tools.testQuestsBoss(getNodeBody("Quest Boss"));
+}
+
+function onl() {
+	doGenerateSummary();
+}
+
+</script></html>
