@@ -85,6 +85,8 @@ But they are the _character build gates_ of Massive Darkness 2: huge miniatures 
 
 ### Credits
 
+The entire project is currently translated in **Spanish** by [Movilla](https://boardgamegeek.com/profile/moviglez)!
+
 The challenges feature is inspired by the [Dungeon Skill Challenge](https://boardgamegeek.com/filepage/245223/dungeon-skills-challenge) variant by **anubys** and by the **Hard Mode** rules of the official web-quest **Hardcore Trial**.
 
 Finally, I've used the excellent [Seshat](http://dotcolon.net/font/seshat/) and [Ferrum](https://dotcolon.net/font/ferrum) fonts by Dot Colon even this time.

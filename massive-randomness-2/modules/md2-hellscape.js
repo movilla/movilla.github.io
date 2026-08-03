@@ -14,7 +14,8 @@ ModManager.modules.push(function(){
                     type:"globalLabels",
                     data:{
                         boxMd2CoreBox:{
-                            EN:"from MD2: Hellscape",ES:"de MD2: Hellscape",
+                            EN:"from MD2: Hellscape",
+                            ES:"de MD2: Hellscape",
                             IT:"da MD2: Hellscape"
                         }
                     }
@@ -22,31 +23,38 @@ ModManager.modules.push(function(){
                     type:"symbols",
                     data:{
                         yellowDie:{
-                            EN:"<span class='symbol dice yellow'>Y</span>",ES:"<span class='symbol dice yellow'>A</span>",
+                            EN:"<span class='symbol dice yellow'>Y</span>",
+                            ES:"<span class='symbol dice yellow'>A</span>",
                             IT:"<span class='symbol dice yellow'>G</span>"
                         },
                         orangeDie:{
-                            EN:"<span class='symbol dice orange'>O</span>",ES:"<span class='symbol dice orange'>N</span>",
+                            EN:"<span class='symbol dice orange'>O</span>",
+                            ES:"<span class='symbol dice orange'>N</span>",
                             IT:"<span class='symbol dice orange'>A</span>"
                         },
                         blueDie:{
-                            EN:"<span class='symbol dice blue'>BL</span>",ES:"<span class='symbol dice blue'>AZ</span>",
+                            EN:"<span class='symbol dice blue'>BL</span>",
+                            ES:"<span class='symbol dice blue'>AZ</span>",
                             IT:"<span class='symbol dice blue'>B</span>"
                         },
                         blackDie:{
-                            EN:"<span class='symbol dice black'>BK</span>",ES:"<span class='symbol dice black'>NG</span>",
+                            EN:"<span class='symbol dice black'>BK</span>",
+                            ES:"<span class='symbol dice black'>NG</span>",
                             IT:"<span class='symbol dice black'>N</span>"
                         },
                         purpleDie:{
-                            EN:"<span class='symbol dice purple'>P</span>",ES:"<span class='symbol dice purple'>M</span>",
+                            EN:"<span class='symbol dice purple'>P</span>",
+                            ES:"<span class='symbol dice purple'>M</span>",
                             IT:"<span class='symbol dice purple'>V</span>"
                         },
                         greenDie:{
-                            EN:"<span class='symbol dice green'>G</span>",ES:"<span class='symbol dice green'>V</span>",
+                            EN:"<span class='symbol dice green'>G</span>",
+                            ES:"<span class='symbol dice green'>V</span>",
                             IT:"<span class='symbol dice green'>V</span>"
                         },
                         redDie:{
-                            EN:"<span class='symbol dice red'>R</span>",ES:"<span class='symbol dice red'>R</span>",
+                            EN:"<span class='symbol dice red'>R</span>",
+                            ES:"<span class='symbol dice red'>R</span>",
                             IT:"<span class='symbol dice red'>R</span>"
                         },
                         sword:{
@@ -101,7 +109,8 @@ ModManager.modules.push(function(){
                             },
                             label:{
                                 IT:[ "Ponte", "Ponti" ],
-                                EN:[ "Bridge", "Bridges"],ES:[ "Puente", "Puentes" ]
+                                EN:[ "Bridge", "Bridges"],
+                                ES:[ "Puente", "Puentes" ]
                             }
                         },
                         regularPortal:{
@@ -110,7 +119,8 @@ ModManager.modules.push(function(){
                             },
                             label:{
                                 IT:[ "Segnalino Portale dei Mostri Erranti", "Segnalini Portale dei Mostri Erranti" ],
-                                EN:[ "Roaming Monster Portal Token", "Roaming Monster Portal Tokens" ],ES:[ "Marcador de Portal de Monstruo Errante", "Marcadores de Portal de Monstruo Errante" ]
+                                EN:[ "Roaming Monster Portal Token", "Roaming Monster Portal Tokens" ],
+                                ES:[ "Marcador de Portal de Monstruo Errante", "Marcadores de Portal de Monstruo Errante" ]
                             }
                         },
                         portal3:{
@@ -120,7 +130,8 @@ ModManager.modules.push(function(){
                             aggregateTo:"greenPortal",
                             label:{
                                 IT:[ "Segnalino Portale 3+", "Segnalini Portale 3+" ],
-                                EN:[ "Portal Token 3+", "Portal Tokens 3+" ],ES:[ "Marcador de Portal 3+", "Marcadores de Portal 3+" ]
+                                EN:[ "Portal Token 3+", "Portal Tokens 3+" ],
+                                ES:[ "Marcador de Portal 3+", "Marcadores de Portal 3+" ]
                             }
                         },
                         portal5:{
@@ -130,7 +141,8 @@ ModManager.modules.push(function(){
                             aggregateTo:"greenPortal",
                             label:{
                                 IT:[ "Segnalino Portale 5+", "Segnalini Portale 5+" ],
-                                EN:[ "Portal Token 5+", "Portal Tokens 5+" ],ES:[ "Marcador de Portal 5+", "Marcadores de Portal 5+" ]
+                                EN:[ "Portal Token 5+", "Portal Tokens 5+" ],
+                                ES:[ "Marcador de Portal 5+", "Marcadores de Portal 5+" ]
                             }
                         },
                         door:{
@@ -140,7 +152,8 @@ ModManager.modules.push(function(){
                             splitFlippedTo:"openDoor",
                             label:{
                                 IT:[ "Segnalino Porta Chiusa", "Segnalini Porta Chiusa" ],
-                                EN:[ "Closed Door", "Closed Doors" ],ES:[ "Puerta Cerrada", "Puertas Cerradas" ]
+                                EN:[ "Closed Door", "Closed Doors" ],
+                                ES:[ "Puerta Cerrada", "Puertas Cerradas" ]
                             }
                         },
                         openDoor:{
@@ -149,7 +162,8 @@ ModManager.modules.push(function(){
                             },
                             label:{
                                 IT:[ "Segnalino Porta Aperta", "Segnalini Porta Aperta" ],
-                                EN:[ "Open Door", "Open Doors" ],ES:[ "Puerta Abierta", "Puertas Abiertas" ]
+                                EN:[ "Open Door", "Open Doors" ],
+                                ES:[ "Puerta Abierta", "Puertas Abiertas" ]
                             }
                         },
                         objective:{
@@ -160,7 +174,8 @@ ModManager.modules.push(function(){
                             splitFlippedTo:"objectiveFlipped",
                             label:{
                                 IT:[ "Segnalino Obiettivo con il Lato Colorato a Faccia in Su", "Segnalini Obiettivo con il Lato Colorato a Faccia in Su" ],
-                                EN:[ "Color-Side-Up Objective Token", "Color-Side-Up Objective Tokens" ],ES:[ "Marcador de Objetivo con el Lado de Color hacia Arriba", "Marcadores de Objetivo con el Lado de Color hacia Arriba" ]
+                                EN:[ "Color-Side-Up Objective Token", "Color-Side-Up Objective Tokens" ],
+                                ES:[ "Marcador de Objetivo con el Lado de Color hacia Arriba", "Marcadores de Objetivo con el Lado de Color hacia Arriba" ]
                             }
                         },
                         mob:{
@@ -169,7 +184,8 @@ ModManager.modules.push(function(){
                             },
                             label:{
                                 IT:[ "Segnalino Generazione", "Segnalini Generazione" ],
-                                EN:[ "Spawn Token", "Spawn Tokens" ],ES:[ "Marcador de Generación", "Marcadores de Generación" ]
+                                EN:[ "Spawn Token", "Spawn Tokens" ],
+                                ES:[ "Marcador de Generaci&oacute;n", "Marcadores de Generaci&oacute;n" ]
                             }
                         },
                         loot:{
@@ -179,7 +195,8 @@ ModManager.modules.push(function(){
                             type:"variableAmount",
                             label:{
                                 IT:[ "Segnalino Bottino", "Segnalini Bottino" ],
-                                EN:[ "Loot Token", "Loot Tokens" ],ES:[ "Marcador de Botín", "Marcadores de Botín" ]
+                                EN:[ "Loot Token", "Loot Tokens" ],
+                                ES:[ "Marcador de Bot&iacute;n", "Marcadores de Bot&iacute;n" ]
                             }
                         },
                         bearTrap:{
@@ -188,7 +205,8 @@ ModManager.modules.push(function(){
                             },
                             label:{
                                 IT:[ "Segnalino Tagliola", "Segnalini Tagliola" ],
-                                EN:[ "Bear Trap Token", "Bear Trap Tokens" ],ES:[ "Marcador de Cepo", "Marcadores de Cepo" ]
+                                EN:[ "Bear Trap Token", "Bear Trap Tokens" ],
+                                ES:[ "Marcador de Cepo", "Marcadores de Cepo" ]
                             }
                         },
                         spikeTrap:{
@@ -197,7 +215,8 @@ ModManager.modules.push(function(){
                             },
                             label:{
                                 IT:[ "Segnalino Trappola con Spuntoni", "Segnalini Trappola con Spuntoni" ],
-                                EN:[ "Spike Trap Token", "Spike Trap Tokens" ],ES:[ "Marcador de Trampa de Púas", "Marcadores de Trampa de Púas" ]
+                                EN:[ "Spike Trap Token", "Spike Trap Tokens" ],
+                                ES:[ "Marcador de Trampa de P&uacute;as", "Marcadores de Trampa de P&uacute;as" ]
                             }
                         },
                         forge:{
@@ -206,7 +225,8 @@ ModManager.modules.push(function(){
                             },
                             label:{
                                 IT:[ "Segnalino Forgia", "Segnalini Forgia" ],
-                                EN:[ "Forge Token", "Forge Tokens" ],ES:[ "Marcador de Forja", "Marcadores de Forja" ]
+                                EN:[ "Forge Token", "Forge Tokens" ],
+                                ES:[ "Marcador de Forja", "Marcadores de Forja" ]
                             }
                         },
                         pillar:{
@@ -215,7 +235,8 @@ ModManager.modules.push(function(){
                             },
                             label:{
                                 IT:[ "Segnalino Colonna", "Segnalini Colonna" ],
-                                EN:[ "Pillar Token", "Pillar Tokens" ],ES:[ "Marcador de Columna", "Marcadores de Columna" ]
+                                EN:[ "Pillar Token", "Pillar Tokens" ],
+                                ES:[ "Marcador de Columna", "Marcadores de Columna" ]
                             }
                         },
                         regularChest:{
@@ -224,7 +245,8 @@ ModManager.modules.push(function(){
                             },
                             label:{
                                 IT:[ "Segnalino Forziere Regolare", "Segnalini Forziere Regolare" ],
-                                EN:[ "Regular Chest Token", "Regular Chest Tokens" ],ES:[ "Marcador de Cofre Normal", "Marcadores de Cofre Normal" ]
+                                EN:[ "Regular Chest Token", "Regular Chest Tokens" ],
+                                ES:[ "Marcador de Cofre Normal", "Marcadores de Cofre Normal" ]
                             }
                         },
                         greaterChest:{
@@ -233,7 +255,8 @@ ModManager.modules.push(function(){
                             },
                             label:{
                                 IT:[ "Segnalino Forziere Superiore", "Segnalini Forziere Superiore" ],
-                                EN:[ "Greater Chest Token", "Greater Chest Tokens" ],ES:[ "Marcador de Cofre Superior", "Marcadores de Cofre Superior" ]
+                                EN:[ "Greater Chest Token", "Greater Chest Tokens" ],
+                                ES:[ "Marcador de Cofre Superior", "Marcadores de Cofre Superior" ]
                             }
                         },
                         fountain:{
@@ -242,7 +265,8 @@ ModManager.modules.push(function(){
                             },
                             label:{
                                 IT:[ "Segnalino Fontana", "Segnalini Fontana" ],
-                                EN:[ "Fountain Token", "Fountain Tokens" ],ES:[ "Marcador de Fuente", "Marcadores de Fuente" ]
+                                EN:[ "Fountain Token", "Fountain Tokens" ],
+                                ES:[ "Marcador de Fuente", "Marcadores de Fuente" ]
                             }
                         },
                         corruption:{
@@ -252,7 +276,8 @@ ModManager.modules.push(function(){
                             },
                             label:{
                                 IT:[ "Segnalino Corruzione", "Segnalini Corruzione" ],
-                                EN:[ "Corruption Token", "Corruption Tokens" ],ES:[ "Marcador de Corrupción", "Marcadores de Corrupción" ]
+                                EN:[ "Corruption Token", "Corruption Tokens" ],
+                                ES:[ "Marcador de Corrupci&oacute;n", "Marcadores de Corrupci&oacute;n" ]
                             }
                         },
                         time:{
@@ -262,7 +287,8 @@ ModManager.modules.push(function(){
                             },
                             label:{
                                 IT:[ "Segnalino Tempo", "Segnalini Tempo" ],
-                                EN:[ "Time Token", "Time Tokens" ],ES:[ "Marcador de Tiempo", "Marcadores de Tiempo" ]
+                                EN:[ "Time Token", "Time Tokens" ],
+                                ES:[ "Marcador de Tiempo", "Marcadores de Tiempo" ]
                             }
                         },
                         frost:{
@@ -271,7 +297,8 @@ ModManager.modules.push(function(){
                             },
                             label:{
                                 IT:[ "Segnalino Gelo", "Segnalini Gelo" ],
-                                EN:[ "Frost Token", "Frost Tokens" ],ES:[ "Marcador de Escarcha", "Marcadores de Escarcha" ]
+                                EN:[ "Frost Token", "Frost Tokens" ],
+                                ES:[ "Marcador de Escarcha", "Marcadores de Escarcha" ]
                             }
                         },
                         fire:{
@@ -280,7 +307,8 @@ ModManager.modules.push(function(){
                             },
                             label:{
                                 IT:[ "Segnalino Fuoco", "Segnalini Fuoco" ],
-                                EN:[ "Fire Token", "Fire Tokens" ],ES:[ "Marcador de Fuego", "Marcadores de Fuego" ]
+                                EN:[ "Fire Token", "Fire Tokens" ],
+                                ES:[ "Marcador de Fuego", "Marcadores de Fuego" ]
                             }
                         },
                 
@@ -293,7 +321,8 @@ ModManager.modules.push(function(){
                             type:"upTo",
                             label:{
                                 IT:[ "Segnalino Portale", "Segnalini Portale" ],
-                                EN:[ "Portal Token", "Portal Tokens" ],ES:[ "Marcador de Portal", "Marcadores de Portal" ]
+                                EN:[ "Portal Token", "Portal Tokens" ],
+                                ES:[ "Marcador de Portal", "Marcadores de Portal" ]
                             }
                         },
                         objectiveFlipped:{
@@ -302,7 +331,8 @@ ModManager.modules.push(function(){
                             },
                             label:{
                                 IT:[ "Segnalino Obiettivo Grigio", "Segnalini Obiettivo Grigio" ],
-                                EN:[ "Gray Objective Token", "Gray Objective Tokens" ],ES:[ "Marcador de Objetivo Gris", "Marcadores de Objetivo Gris" ]
+                                EN:[ "Gray Objective Token", "Gray Objective Tokens" ],
+                                ES:[ "Marcador de Objetivo Gris", "Marcadores de Objetivo Gris" ]
                             }
                         },
                         startPoint:{
@@ -311,7 +341,8 @@ ModManager.modules.push(function(){
                             },
                             label:{
                                 IT:[ "Zona di Partenza degli Eroi", "Zone di Partenza degli Eroi" ],
-                                EN:[ "Hero Starting Zone", "Hero Starting Zones" ],ES:[ "Zona de Partida de los Héroes", "Zonas de Partida de los Héroes" ]
+                                EN:[ "Hero Starting Zone", "Hero Starting Zones" ],
+                                ES:[ "Zona de Partida de los H&eacute;roes", "Zonas de Partida de los H&eacute;roes" ]
                             }
                         },
                         startMob:{
@@ -320,7 +351,8 @@ ModManager.modules.push(function(){
                             },
                             label:{
                                 IT:[ "Orda di Partenza", "Orde di Partenza" ],
-                                EN:[ "Starting Mob Zone", "Starting Mob Zones" ],ES:[ "Cuadrilla de Partida", "Cuadrillas de Partida" ]
+                                EN:[ "Starting Mob Zone", "Starting Mob Zones" ],
+                                ES:[ "Cuadrilla de Partida", "Cuadrillas de Partida" ]
                             }
                         },
                         startRoaming:{
@@ -329,7 +361,8 @@ ModManager.modules.push(function(){
                             },
                             label:{
                                 IT:[ "Mostro Errante di Partenza", "Mostri Erranti di Partenza" ],
-                                EN:[ "Starting Roaming Monster Zone", "Starting Roaming Monster Zones" ],ES:[ "Monstruo Errante de Partida", "Monstruos Errantes de Partida" ]
+                                EN:[ "Starting Roaming Monster Zone", "Starting Roaming Monster Zones" ],
+                                ES:[ "Monstruo Errante de Partida", "Monstruos Errantes de Partida" ]
                             }
                         }
                     }

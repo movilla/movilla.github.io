@@ -16,7 +16,8 @@ Tools=(function(){
         },
         ALLOWED_ENTITIES={
             IT:[ "ograve", "agrave", "egrave", "eacute", "ugrave", "igrave", "deg", "amp", "Egrave", "dash", "OElig", "ocirc" ],
-            EN:[ "amp", "dash", "OElig", "ocirc" ],ES:[ "aacute", "eacute", "iacute", "oacute", "uacute", "Aacute", "Eacute", "Iacute", "Oacute", "Uacute", "ntilde", "Ntilde", "uuml", "Uuml", "iexcl", "iquest", "deg", "amp", "dash", "OElig", "ocirc", "ordf", "ordm" ]
+            EN:[ "amp", "dash", "OElig", "ocirc" ],
+            ES:[ "aacute", "eacute", "iacute", "oacute", "uacute", "Aacute", "Eacute", "Iacute", "Oacute", "Uacute", "ntilde", "Ntilde", "uuml", "Uuml", "iexcl", "iquest", "deg", "amp", "dash", "OElig", "ocirc", "ordf", "ordm", "laquo", "raquo" ]
         },
         ALLOWED_TAGS=[ "p", "/p", "ul", "/ul", "ol", "/ol", "li", "/li", "b", "/b", "i", "/i", "span class='phase'", "span class='displayonly'", "span class='printonly'", "span class='hiddentext'",  "/span", "br", "p class='credits'", "/a", /^a target=_blank href='[^']+'$/ ],
         ALLOWED_PLACEHOLDER_MODS=[ "capital" ],
@@ -34,7 +35,8 @@ Tools=(function(){
             "campaign.page", "campaign.pages", "campaign.name"
         ],
         WARNING_WORDS={
-            EN:[ "wandering", "quest", "marker" ],ES:[ "quest", "xp" ],
+            EN:[ "wandering", "quest", "marker" ],
+            ES:[ "quest", "xp" ],
             IT:[ "quest", "xp", "avventura" ],
             FR:[ ]
         },

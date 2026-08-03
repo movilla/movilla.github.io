@@ -14,7 +14,8 @@ ModManager.modules.push(function(){
                     type:"globalLabels",
                     data:{
                         boxMd2RainbowCrossing:{
-                            EN:"from MD2: Rainbow Crossing",ES:"de MD2: Rainbow Crossing",
+                            EN:"from MD2: Rainbow Crossing",
+                            ES:"de MD2: Rainbow Crossing",
                             IT:"da MD2: Rainbow Crossing"
                         }
                     }

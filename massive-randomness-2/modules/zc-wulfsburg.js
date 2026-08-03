@@ -13,7 +13,8 @@ ModManager.modules.push(function(){
                     type:"globalLabels",
                     data:{
                         boxZcWulfsburg:{
-                            EN:"from Zombicide: Wulfsburg",ES:"de Zombicide: Wulfsburg",
+                            EN:"from Zombicide: Wulfsburg",
+                            ES:"de Zombicide: Wulfsburg",
                             IT:"da Zombicide: Wulfsburg"
                         }
                     }
